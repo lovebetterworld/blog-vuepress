@@ -74,8 +74,8 @@ features: # 可选的
 
 ## :email: 联系
 
-- **WeChat or QQ**: <a href="tencent://message/?uin=894072666&Site=&Menu=yesUrl" class='qq'>894072666</a>
-- **Email**: <a href="mailto:894072666@qq.com">894072666@qq.com</a>
-- **GitHub**: <https://github.com/xugaoyi>
+- **WeChat**: lovebetterworld
+- **Email**: <a href="mailto:1090239782@qq.com">1090239782@qq.com</a>
+- **GitHub**: <https://gitee.com/AiShiYuShiJiePingXing>
 
 </br>  -->
