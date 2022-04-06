@@ -26,6 +26,30 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 导航配置
     nav: [
       { text: '首页', link: '/' },
+	  {
+        text: '热门',
+        link: '/hot/',
+        items: [
+			  {text: '⭐⭐⭐产品列表',link:'/hot/4cce18/'},
+			  {text: '⭐⭐⭐技术相关',link:'/hot/55dcd9/'},
+			  {text: '流媒体',link:'/hot/51d349/'},
+			  {text: '物联网',link:'/hot/67a5c9/'},
+			  {text: '简历工作相关',link:'/hot/b665ff/'},
+			  {text: '优质资源分享',link:'/hot/4df664/'},
+			  {text: '可视化大屏',link:'/hot/bcea3f/'},
+			  {text: 'PostgreSQL',link:'/hot/e8c4ae/'},
+			  {text: '智慧城市',link:'/hot/f36858/'},
+			  {text: '常用兼职网站',link:'/hot/5d21ce/'},
+			  {text: '快速开发平台',link:'/hot/0d5cb5/'},
+			  {text: '接口API管理工具',link:'/hot/389faf/'},
+			  {text: '代码质量',link:'/hot/8525be/'},
+			  {text: '看热搜',link:'/hot/4ace57/'},
+			  {text: '搭建博客或网站',link:'/hot/7591eb/'},
+			  {text: '监控平台',link:'/hot/870e3c/'},
+			  {text: '搭建网站',link:'/hot/ae30fe/'},
+			  {text: '为什么你应该写博客',link:'/hot/6726b8/'},
+        ],
+      },
       {
         text: '前端',
         link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
@@ -65,14 +89,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           },
         ],
       },
-	{
-        text: '热门',
-        link: '/hot/',
-        items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-        ],
-      },
       {
         text: '页面',
         link: '/ui/',
@@ -82,27 +98,102 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
 	 {
-        text: '后端',
-        link: '/back/',
+        text: '数据库',
+        link: '/database/',
         items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          {
+            text: 'MySQL',
+            items: [
+              { text: '00.SQL优化万能公式', link: '/mysql/4a1e18/'},
+              { text: '01.MySQL-IP存储方式', link: '/mysql/4b1e18/'},
+              { text: '02.MySQL GIS功能介绍', link: '/mysql/4de1e18/'},
+            ],
+          },
+		  {
+            text: 'PostgreSQL',
+            items: [
+              { text: '00.PostGIS总结', link: '/postgresql/4de1e18/'},
+              { text: '01.PostGIS常用函数', link: '/postgresql/41ee18/'},
+              { text: '02.PostGis添加Geometry类型字段', link: '/postgresql/42e1e18/'},
+              { text: '03.Java Geometry空间几何数据的处理应用', link: '/postgresql/43e1e18/'} ,
+              { text: '04.PostGIS创建Gis空间数据库，shp数据入库', link: '/postgresql/45e1e18/'} ,
+            ],
+          },
+		  {
+            text: 'Redis',
+            items: [
+              { text: '00.Redis开发规范', link: '/redis/4de1e181/'},
+              { text: '01.Redis常见使用场景', link: '/redis/4de1e182/'},
+              { text: '02.Redis的持久化方案', link: '/redis/4de1e183/'},
+              { text: '03.Redis内存淘汰机制与算法', link: '/redis/4de1e184/'},
+              { text: '04.Redis主从同步和哨兵模式', link: '/redis/4de1e185/'},
+              { text: '05.Redis生产架构选型解决方案', link: '/redis/4de1e186/'},
+              { text: '06.Redis缓存雪崩、缓存穿透、缓存击穿、缓存预热', link: '/redis/4de1e187/'},
+            ],
+          },
         ],
       },
 	 {
-        text: '运维',
-        link: '/devops/',
+        text: '云原生',
+        link: '/Cloud/',
         items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          { text: '00.云原生概念', link: '/cloud/4c1e18/'},
+          { text: '01.云原生架构', link: '/cloud/4c2e18/'},
+          { text: '02.快速了解云原生架构', link: '/cloud/4c3e1823/'},
+          { text: '03.最全云原生全景图解读', link: '/cloud/4c4e18/'},
+          { text: '04.Serverless概述及案例', link: '/cloud/4c5e18/'},
+          { text: '05.什么是云计算，云计算的三种模式', link: '/cloud/4c6e18/'},
+          { text: '06.基于云原生的大数据实时分析方案实践', link: '/cloud/4c7e18/'},
+          { text: '07.一文读懂 Serverless 的起源、发展和落地实践', link: '/cloud/4c8e18/'},
+          { text: '08.传统IT架构转型，从云原生平台到微服务应用构建', link: '/cloud/4c9e18/'},
+          { text: '09.应用的交付形态-云原生应用交付的过去、现在与未来', link: '/cloud/4c10e18/'},
+          { text: '10.阿里巴巴服务网格技术三位一体战略背后的思考与实践', link: '/cloud/4c11e18/'},
+        ],
+      },
+	 {
+        text: '人工智能',
+        link: '/AI/',
+        items: [
+          { text: '00.机器学习和深度学习的区别', link: '/ai/4a1e18/'},
+          { text: '01.自动驾驶、无人驾驶、车联网笔记分享', link: '/ai/4bw1e18/'},
+          { text: '02.深度学习思维导图、人工智能思维导图、深度学习综述', link: '/ai/4cd1e18/'},
         ],
       },
 	 {
         text: '项目管理',
         link: '/project/',
         items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          {
+            text: '研发规范',
+            items: [
+              { text: '00.IDEA注释和方法模板', link: '/standard/fffaf6/'},
+              { text: '01.大型项目的 Gitflow 实践', link: '/standard/5e8efc/'},
+              { text: '02.项目README规范', link: '/standard/efac91/'},
+              { text: '03.关于研发规范化的一些思考', link: '/standard/dddf6c/'} ,
+              { text: '04.代码仓库的创建规范', link: '/standard/faf9a8/'},
+              { text: '05.Java命名规范', link: '/standard/e08015/'},
+              { text: '06.代码开发规范', link: '/standard/c3cb2e/'},
+              { text: '07.接口设计规范', link: '/standard/a7482d/'},
+              { text: '08.数据库的设计规范', link: '/standard/d1a40a/'},
+            ],
+          },
+          {
+            text: '团队管理',
+            items: [
+              { text: '01.管理认知：程序员要不要做技术管理？', link: '/team/cc93e5/'},
+              { text: '02.管理规划：目标是什么？', link: '/team/ae6d0a/'},
+              { text: '03.团队建设：怎么带队伍？', link: '/team/780a4c/'},
+              { text: '04.任务管理：如何跟踪执行？', link: '/team/5406fa/'},
+              { text: '05.管理沟通：管理的必修课！', link: '/team/a6cc85/'},
+              { text: '06.大厂晋升指南-材料准备,PPT写作和现场答辩', link: '/team/dc6d6f/'},
+              { text: '07.大厂晋升指南-上', link: '/team/2c533e/'},
+              { text: '08.大厂晋升指南-中', link: '/team/3a9f32/'},
+              { text: '09.大厂晋升指南-下', link: '/team/b2b7be/'},
+              { text: '10.IT技术人的知识体系', link: '/team/86a3e8/'},
+              { text: '12.项目管理', link: '/team/4fd6d9/'},
+              { text: '14.如何做工作汇报', link: '/team/4d63c2/'},
+            ],
+          },
         ],
       },
       {
