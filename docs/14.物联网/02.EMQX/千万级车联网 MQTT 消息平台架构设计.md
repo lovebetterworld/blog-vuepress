@@ -1,3 +1,13 @@
+---
+title: 千万级车联网 MQTT 消息平台架构设计
+date: 2022-04-08 16:16:47
+permalink: /pages/04235d/
+categories:
+  - 物联网
+  - EMQX
+tags:
+  - 
+---
 - [千万级车联网 MQTT 消息平台架构设计_EMQ的技术博客_51CTO博客](https://blog.51cto.com/u_15204296/5083798)
 
 ## 1 前言

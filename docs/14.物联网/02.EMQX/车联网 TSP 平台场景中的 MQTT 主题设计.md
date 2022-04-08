@@ -1,3 +1,13 @@
+---
+title: 车联网 TSP 平台场景中的 MQTT 主题设计
+date: 2022-04-08 15:56:34
+permalink: /pages/9fcc47/
+categories:
+  - 物联网
+  - EMQX
+tags:
+  - 
+---
 - [车联网 TSP 平台场景中的 MQTT 主题设计 | EMQ (emqx.com)](https://www.emqx.com/zh/blog/mqtt-topic-design-for-internet-of-vehicles)
 
 > 本文作者：田桢，前上汽大众平台架构师，现为中科创达汽车云技术负责人
