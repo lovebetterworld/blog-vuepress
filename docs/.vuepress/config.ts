@@ -171,12 +171,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 				{ text: '00.万字详解车路协同、C-V2X通信协议', link: '/c-v2x/f232234e7/'},
             ],
 		 },
-		{
-            text: '自动驾驶',
-            items: [
-			
-            ],
-		 },
         ],
       },
 	 {
