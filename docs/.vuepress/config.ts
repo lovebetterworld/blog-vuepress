@@ -61,6 +61,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
             ],
           },
+		 {
+            text: '页面',
+            items: [
+				{ text: 'HTML', link: '/ui/8309a5b876fc95e3/' },
+				{ text: 'CSS', link: '/ui/0a83b083bdf257cb/' },
+            ],
+          },
           {
             text: '学习笔记',
             items: [
@@ -69,32 +76,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '《ES6 教程》', link: '/note/es6/' },
               { text: '《Vue》', link: '/note/vue/' },
               { text: '《React》', link: '/note/react/' },
-              {
-                text: '《TypeScript 从零实现 axios》',
-                link: '/note/typescript-axios/',
-              },
-              {
-                text: '《Git》',
-                link: '/note/git/',
-              },
-              {
-                text: 'TypeScript',
-                link: '/pages/51afd6/',
-              },
-              {
-                text: 'JS设计模式总结',
-                link: '/pages/4643cd/',
-              },
+              { text: '《TypeScript 从零实现 axios》',link: '/note/typescript-axios/',},
+              { text: '《Git》',link: '/note/git/',},
+              { text: 'TypeScript', link: '/pages/51afd6/',},
+              { text: 'JS设计模式总结',link: '/pages/4643cd/',},
             ],
           },
-        ],
-      },
-      {
-        text: '页面',
-        link: '/ui/',
-        items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
         ],
       },
 	 {
@@ -135,7 +122,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
 	 {
         text: '云原生',
-        link: '/Cloud/',
+        link: '/cloudnative/',
         items: [
           { text: '00.云原生概念', link: '/cloud/4c1e18/'},
           { text: '01.云原生架构', link: '/cloud/4c2e18/'},
@@ -151,12 +138,59 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
 	 {
-        text: '人工智能',
-        link: '/AI/',
+        text: '物联网',
+        link: '/iot/',
         items: [
-          { text: '00.机器学习和深度学习的区别', link: '/ai/4a1e18/'},
-          { text: '01.自动驾驶、无人驾驶、车联网笔记分享', link: '/ai/4bw1e18/'},
-          { text: '02.深度学习思维导图、人工智能思维导图、深度学习综述', link: '/ai/4cd1e18/'},
+		  {
+            text: 'MQTT',
+            items: [
+			  { text: '00.MQTT 协议', link: '/mqtt/fd34e7/'},
+			  { text: '01.MQTT Broker 比较与选型——开源与商业服务器服务对比', link: '/mqtt/1222ced6/'},
+			  { text: '03.Docker搭建MQTT服务器', link: '/mqtt/12xced6/'},
+			  { text: '04.MQTT.fx', link: '/mqtt/12ced6/'},
+			  { text: '05.MQTTX使用指南', link: '/mqtt/1dced6/'},
+			  { text: '06.MQTT应用开发- MQTT客户端开发', link: '/mqtt/15ced6/'},
+            ],
+		 },
+		  {
+            text: 'EMQ',
+            items: [
+			  { text: '00.EMQ X+Kafka高性能物联网MQTT消息处理方案', link: '/emq/198ced6/'},
+			  { text: '01.车联网平台百万级消息吞吐架构设计', link: '/emq/2908ced6/'},
+            ],
+		 },
+        ],
+      },
+	 {
+        text: '车路协同自动驾驶',
+        link: '/cvis/',
+        items: [
+		{
+            text: '车路协同',
+            items: [
+				{ text: '00.万字详解车路协同、C-V2X通信协议', link: '/c-v2x/f232234e7/'},
+            ],
+		 },
+		{
+            text: '自动驾驶',
+            items: [
+			
+            ],
+		 },
+        ],
+      },
+	 {
+        text: '人工智能',
+        link: '/ais/',
+        items: [
+		  {
+            text: '机器学习',
+            items: [
+			  { text: '00.机器学习和深度学习的区别', link: '/ai/4a1e18/'},
+			  { text: '01.自动驾驶、无人驾驶、车联网笔记分享', link: '/ai/4bw1e18/'},
+			  { text: '02.深度学习思维导图、人工智能思维导图、深度学习综述', link: '/ai/4cd1e18/'},
+            ],
+		},
         ],
       },
 	 {
