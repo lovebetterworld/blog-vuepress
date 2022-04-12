@@ -150,8 +150,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: 'EMQ',
                         items: [
-                            {text: '00.EMQ X+Kafka高性能物联网MQTT消息处理方案', link: '/emq/198ced6/'},
-                            {text: '01.车联网平台百万级消息吞吐架构设计', link: '/emq/2908ced6/'},
+                            {text: '01.EMQ X+Kafka高性能物联网MQTT消息处理方案', link: '/emq/198ced6/'},
+                            {text: '02.车联网平台百万级消息吞吐架构设计', link: '/emq/2908ced6/'},
+                            {text: '03.千万级车联网MQTT消息平台架构设计', link: '/emq/14235d/'},
+                            {text: '04.车联网TSP平台场景中的MQTT主题设计', link: '/emq/21fcc47/'},
+                            {text: '05.EMQ车路协同', link: '/emq/dc662b8/'},
+                            {text: '06.EMQX桥接数据到Kafka', link: '/emq/xc6262b8/'},
                         ],
                     },
                 ],
