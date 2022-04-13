@@ -145,6 +145,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '04.MQTT.fx', link: '/mqtt/12ced6/'},
                             {text: '05.MQTTX使用指南', link: '/mqtt/1dced6/'},
                             {text: '06.MQTT应用开发- MQTT客户端开发', link: '/mqtt/15ced6/'},
+                            {text: '07.MQTT和Kafka对比', link: '/mqtt/mqkaced6/'},
+                            {text: '08.SpringBoot订阅MQTT推送至数据库', link: '/mqtt/sbttkaced6/'},
+                            {text: '09.MQTT常见问题整理', link: '/mqtt/mqtkaced6/'},
+                            {text: '10.MQTT和TCP协议的对比', link: '/mqtt/c5f6292/'},
                         ],
                     },
                     {
