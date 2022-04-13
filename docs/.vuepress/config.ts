@@ -158,6 +158,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '06.EMQX桥接数据到Kafka', link: '/emq/xc6262b8/'},
                         ],
                     },
+                    {
+                        text: '物联网平台',
+                        items: [
+                            {text: '00.开源物联网平台建设、参考解决方案', link: '/iot/wlw8ced6/'},
+                        ],
+                    },
                 ],
             },
             {
