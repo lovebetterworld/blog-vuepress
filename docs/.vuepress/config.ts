@@ -136,38 +136,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: '物联网',
                 link: '/iot/',
                 items: [
-                    {
-                        text: 'MQTT',
-                        items: [
-                            {text: '00.MQTT 协议', link: '/mqtt/fd34e7/'},
-                            {text: '01.MQTT Broker 比较与选型——开源与商业服务器服务对比', link: '/mqtt/1222ced6/'},
-                            {text: '03.Docker搭建MQTT服务器', link: '/mqtt/12xced6/'},
-                            {text: '04.MQTT.fx', link: '/mqtt/12ced6/'},
-                            {text: '05.MQTTX使用指南', link: '/mqtt/1dced6/'},
-                            {text: '06.MQTT应用开发- MQTT客户端开发', link: '/mqtt/15ced6/'},
-                            {text: '07.MQTT和Kafka对比', link: '/mqtt/mqkaced6/'},
-                            {text: '08.SpringBoot订阅MQTT推送至数据库', link: '/mqtt/sbttkaced6/'},
-                            {text: '09.MQTT常见问题整理', link: '/mqtt/mqtkaced6/'},
-                            {text: '10.MQTT和TCP协议的对比', link: '/mqtt/c5f6292/'},
-                        ],
-                    },
-                    {
-                        text: 'EMQ',
-                        items: [
-                            {text: '01.EMQ X+Kafka高性能物联网MQTT消息处理方案', link: '/emq/198ced6/'},
-                            {text: '02.车联网平台百万级消息吞吐架构设计', link: '/emq/2908ced6/'},
-                            {text: '03.千万级车联网MQTT消息平台架构设计', link: '/emq/14235d/'},
-                            {text: '04.车联网TSP平台场景中的MQTT主题设计', link: '/emq/21fcc47/'},
-                            {text: '05.EMQ车路协同', link: '/emq/dc662b8/'},
-                            {text: '06.EMQX桥接数据到Kafka', link: '/emq/xc6262b8/'},
-                        ],
-                    },
-                    {
-                        text: '物联网平台',
-                        items: [
-                            {text: '00.开源物联网平台建设、参考解决方案', link: '/iot/wlw8ced6/'},
-                        ],
-                    },
+                    {text: 'MQTT', link: '/mqtt/fd34e7/'},
+                    {text: 'EMQ', link: '/emq/198ced6/'},
+                    {text: '物联网平台', link: '/platform/wlw8ced6/'},
                 ],
             },
             {
