@@ -136,9 +136,38 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: '物联网',
                 link: '/iot/',
                 items: [
-                    {text: 'MQTT', link: '/mqtt/fd34e7/'},
-                    {text: 'EMQ', link: '/emq/198ced6/'},
-                    {text: '物联网平台', link: '/platform/wlw8ced6/'},
+                    {
+                        text: 'MQTT',
+                        items: [
+                            {text: '00.MQTT协议', link: '/mqtt/fd34e7/'},
+                            {text: '07.MQTT主题设计开发实践', link: '/mqtt/ttkaced7/'},
+                            {text: '10.MQTT和TCP协议的对比', link: '/mqtt/c5f6292/'},
+                            {text: '12.MQTT协议的消息传递可靠性和持续性', link: '/mqtt/mkaced9/'},
+                        ],
+                    },
+                    {
+                        text: 'EMQX',
+                        items: [
+                            {text: '01.EMQX+Kafka 性能物联网MQTT消息处理方案', link: '/emq/198ced6/'},
+                            {text: '02.车联网平台百万级消息吞吐架构设计', link: '/emq/2908ced6/'},
+                            {text: '03.千万级车联网MQTT消息平台架构设计', link: '/emq/14235d/'},
+                            {text: '04.车联网TSP平台场景中的MQTT主题设计', link: '/emq/21fcc47/'},
+                            {text: '05.EMQ车路协同', link: '/emq/dc662b8/'},
+                            {text: '06.EMQX桥接数据到Kafka', link: '/emq/xc6262b8/'},
+                            {text: '07.EMQ X持久化PostgreSQL数据持久化', link: '/emq/dbc6262b8/'},
+                        ],
+                    },
+                    {
+                        text: '物联网平台',
+                        items: [
+                            {text: '00.开源物联网平台建设、参考解决方案', link: '/platform/wlw8ced6/'},
+                            {text: '01.物联网应用层协议选择和分析', link: '/platform/wl1w8ced6/'},
+                            {text: '03.腾讯物联网平台学习', link: '/platform/tx8ced6/'},
+                            {text: '04.物联网平台设计学习', link: '/platform/stw8ced6/'},
+                            {text: '04.物联网平台设计学习', link: '/platform/stw8ced6/'},
+                            {text: '06.物模型', link: '/platform/moe8ced6/'},
+                        ],
+                    },
                 ],
             },
             {
@@ -215,7 +244,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/'},
                             {text: 'Nodejs', link: '/pages/117708e0af7f0bd9/'},
                             {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
+                            {text: 'Java', link: '/Java/j1f871/'},
+                            {text: 'SpringBoot', link: '/SpringBoot/b41f871/'},
                             {text: '计算机网络', link: '/network/41f871/'},
+                            {text: '面试题', link: '/interview/in41f871/'},
                         ],
                     },
                     {
