@@ -177,7 +177,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: '车路协同',
                         items: [
-                            {text: '00.万字详解车路协同、C-V2X通信协议', link: '/c-v2x/f232234e7/'},
+                            {text: '00.万字详解车路协同、C-V2X通信协议', link: '/cvis/f232234e7/'},
+                            {text: '01.万字详解5G车联网技术', link: '/cvis/a1232234e7/'},
+                            {text: '10.V2X车路协同云控数据平台业务整理', link: '/cvis/a2232234e7/'},
+                            {text: '11.车路云一体化融合控制系统', link: '/cvis/a324e7/'},
+                            {text: '20.广州市车联网先导区V2X云控基础平台技术规范', link: '/cvis/a424e7/'},
+                            {text: '21.广州市车联网先导区建设总体技术规范', link: '/cvis/a524e7/'},
+                            {text: '22.金水智能汽车5G-V2X车路协同安全测试认证基地项目招标文件', link: '/cvis/a624e7/'},
+                            {text: '23.天津(西青)车联网先导区技术标准与实践白皮书', link: '/cvis/a724e7/'},
+                            {text: '24.银川市智能网联汽车道路测试示范 应用项目（一期）', link: '/cvis/a824e7/'},
                         ],
                     },
                 ],
