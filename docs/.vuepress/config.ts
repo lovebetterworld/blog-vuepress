@@ -116,23 +116,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 ],
             },
             {
-                text: '云原生',
-                link: '/cloudnative/',
-                items: [
-                    {text: '00.云原生概念', link: '/cloud/4c1e18/'},
-                    {text: '01.云原生架构', link: '/cloud/4c2e18/'},
-                    {text: '02.快速了解云原生架构', link: '/cloud/4c3e1823/'},
-                    {text: '03.最全云原生全景图解读', link: '/cloud/4c4e18/'},
-                    {text: '04.Serverless概述及案例', link: '/cloud/4c5e18/'},
-                    {text: '05.什么是云计算，云计算的三种模式', link: '/cloud/4c6e18/'},
-                    {text: '06.基于云原生的大数据实时分析方案实践', link: '/cloud/4c7e18/'},
-                    {text: '07.一文读懂 Serverless 的起源、发展和落地实践', link: '/cloud/4c8e18/'},
-                    {text: '08.传统IT架构转型，从云原生平台到微服务应用构建', link: '/cloud/4c9e18/'},
-                    {text: '09.应用的交付形态-云原生应用交付的过去、现在与未来', link: '/cloud/4c10e18/'},
-                    {text: '10.阿里巴巴服务网格技术三位一体战略背后的思考与实践', link: '/cloud/4c11e18/'},
-                ],
-            },
-            {
                 text: '物联网',
                 link: '/iot/',
                 items: [
