@@ -99,6 +99,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '02.PostGis添加Geometry类型字段', link: '/postgresql/42e1e18/'},
                             {text: '03.Java Geometry空间几何数据的处理应用', link: '/postgresql/43e1e18/'},
                             {text: '04.PostGIS创建Gis空间数据库，shp数据入库', link: '/postgresql/45e1e18/'},
+                            {text: '10.PostgreSQL自动类型转换', link: '/postgresql/6p21e18/'},
                         ],
                     },
                     {
