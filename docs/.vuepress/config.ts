@@ -249,7 +249,30 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '01.vim常用命令', link: '/devops/8c1e18/'},
                             {text: '02.Linux打包与压缩', link: '/devops/6c1e18/'},
                             {text: '03.防火墙firewalld概述及常用操作', link: '/devops/7c1e18/'},
+                            {text: '04.Linux Cron定时任务', link: '/devops/04c1e18/'},
+                            {text: '05.Shell脚本基本规范、书写习惯', link: '/devops/05c1e18/'},
+                            {text: '06.Shell开发在运维中的经验总结', link: '/devops/067c1e18/'},
                             {text: '04.nginx安装', link: '/devops/nginx18/'},
+                            {text: '05.Jenkins构建时执行Shell脚本', link: '/jenkins/jenkins1/'},
+                        ],
+                    },
+                    {
+                        text: 'Docker',
+                        items: [
+                            {text: '07.Dockers底层技术', link: '/docker/docker07/'},
+                            {text: '08.Docker部署常见应用', link: '/docker/docker08/'},
+                        ],
+                    },
+                    {
+                        text: 'Nginx',
+                        items: [
+                            {text: '04.nginx安装', link: '/devops/nginx18/'},
+                        ],
+                    },
+                    {
+                        text: 'Jenkins',
+                        items: [
+                            {text: '01.Jenkins构建时执行Shell脚本', link: '/jenkins/jenkins1/'},
                         ],
                     },
                 ],
