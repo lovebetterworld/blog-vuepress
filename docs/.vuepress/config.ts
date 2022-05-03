@@ -322,7 +322,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         blogger: {
             avatar: '/img/touxiang.jpg',
             name: '爱是与世界平行',
-            slogan: '拼命铲屎官',
+            slogan: '铲屎官',
         },
         // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
         social: {
@@ -371,9 +371,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 插件配置
     plugins: <UserPlugins>[
-
         'vuepress-plugin-baidu-autopush', // 百度自动推送
-
         [
             'vuepress-plugin-baidu-tongji', // 百度统计
             {
@@ -415,11 +413,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             {
                 choosen: 'gitalk',
                 options: {
-                    clientID: 'a6e1355287947096b88b',
-                    clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-                    repo: 'blog-gitalk-comment', // GitHub 仓库
-                    owner: 'xugaoyi', // GitHub仓库所有者
-                    admin: ['xugaoyi'], // 对仓库有写权限的人
+                    clientID: '096db831ba977f2d3d88',
+                    clientSecret: 'a13ea8f32051045e9f30206f5c9771fe7dfb04d2',
+                    repo: 'blog-vuepress', // GitHub 仓库
+                    owner: 'lovebetterworld', // GitHub仓库所有者
+                    admin: ['lovebetterworld'], // 对仓库有写权限的人
                     // distractionFreeMode: true,
                     pagerDirection: 'last', // 'first'正序 | 'last'倒序
                     id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
