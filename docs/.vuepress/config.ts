@@ -22,26 +22,26 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         nav: [
             {text: '首页', link: '/'},
             {
-                text: '热门',
+                text: '⭐⭐⭐热门',
                 link: '/hot/',
                 items: [
-                    {text: '⭐⭐⭐产品列表', link: '/hot/4cce18/'},
-                    {text: '⭐⭐⭐技术相关', link: '/hot/55dcd9/'},
                     {text: '流媒体', link: '/hot/51d349/'},
                     {text: '物联网', link: '/hot/67a5c9/'},
-                    {text: '简历工作相关', link: '/hot/b665ff/'},
-                    {text: '优质资源分享', link: '/hot/4df664/'},
-                    {text: '可视化大屏', link: '/hot/bcea3f/'},
-                    {text: 'PostgreSQL', link: '/hot/e8c4ae/'},
-                    {text: '智慧城市', link: '/hot/f36858/'},
-                    {text: '常用兼职网站', link: '/hot/5d21ce/'},
-                    {text: '快速开发平台', link: '/hot/0d5cb5/'},
-                    {text: '接口API管理工具', link: '/hot/389faf/'},
-                    {text: '代码质量', link: '/hot/8525be/'},
                     {text: '看热搜', link: '/hot/4ace57/'},
-                    {text: '搭建博客或网站', link: '/hot/7591eb/'},
+                    {text: '产品列表', link: '/hot/4cce18/'},
+                    {text: '技术相关', link: '/hot/55dcd9/'},
+                    {text: '智慧城市', link: '/hot/f36858/'},
+                    {text: '代码质量', link: '/hot/8525be/'},
                     {text: '监控平台', link: '/hot/870e3c/'},
                     {text: '搭建网站', link: '/hot/ae30fe/'},
+                    {text: '可视化大屏', link: '/hot/bcea3f/'},
+                    {text: 'PostgreSQL', link: '/hot/e8c4ae/'},
+                    {text: '常用兼职网站', link: '/hot/5d21ce/'},
+                    {text: '优质资源分享', link: '/hot/4df664/'},
+                    {text: '快速开发平台', link: '/hot/0d5cb5/'},
+                    {text: '简历工作相关', link: '/hot/b665ff/'},
+                    {text: '搭建博客或网站', link: '/hot/7591eb/'},
+                    {text: '接口API管理工具', link: '/hot/389faf/'},
                     {text: '为什么你应该写博客', link: '/hot/6726b8/'},
                 ],
             },
@@ -172,14 +172,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '24.银川市智能网联汽车道路测试示范 应用项目（一期）', link: '/cvis/a824e7/'},
                         ],
                     },
-                ],
-            },
-            {
-                text: '人工智能',
-                link: '/ais/',
-                items: [
                     {
-                        text: '机器学习',
+                        text: '自动驾驶',
                         items: [
                             {text: '00.机器学习和深度学习的区别', link: '/ai/4a1e18/'},
                             {text: '01.自动驾驶、无人驾驶、车联网笔记分享', link: '/ai/4bw1e18/'},
@@ -288,7 +282,25 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {text: '友情链接', link: '/friends/'},
                 ],
             },
-            {text: '关于', link: '/about/'},
+            {
+                text: '关于',
+                link: '/life/',
+                items: [
+                    {
+                        text: '关于',
+                        items: [{text: '关于我', link: '/life/aboutme/'},],
+                    },
+                    {
+                        text: '生活',
+                        items: [
+                            {text: '01.程序猿', link: '/life/life01/'},
+                            {text: '02.致2021', link: '/life/life02/'},
+                            {text: '03.别离烟台', link: '/life/life03/'},
+                            {text: '04.烟火气', link: '/life/life04/'},
+                        ],
+                    },
+                ]
+            },
             {
                 text: '收藏',
                 link: '/pages/beb6c0bd8a66cea6/',
@@ -374,9 +386,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         'vuepress-plugin-baidu-autopush', // 百度自动推送
         [
             'vuepress-plugin-baidu-tongji', // 百度统计
-            {
-                hm: baiduCode,
-            },
+            {hm: baiduCode,},
         ],
         // 全文搜索。 ⚠️注意：此插件会在打开网站时多加载部分js文件用于搜索，导致初次访问网站变慢。如在意初次访问速度的话可以不使用此插件！（推荐：vuepress-plugin-thirdparty-search）
         'fulltext-search',

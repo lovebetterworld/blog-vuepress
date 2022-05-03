@@ -10,7 +10,8 @@ bannerBg: http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/0222
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: simple
-# simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
+simplePostListLength: 15 
+# 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 ---
 
 
