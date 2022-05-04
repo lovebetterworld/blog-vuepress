@@ -49,32 +49,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: '前端',
                 link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
                 items: [
-                    // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
                     {
                         text: '前端文章',
                         items: [
-                            {text: 'JavaScript', link: '/pages/8143cc480faf9a11/'},
-                        ],
-                    },
-                    {
-                        text: '页面',
-                        items: [
-                            {text: 'HTML', link: '/web/8309a5b876fc95e3/'},
-                            {text: 'CSS', link: '/web/0a83b083bdf257cb/'},
-                        ],
-                    },
-                    {
-                        text: '学习笔记',
-                        items: [
-                            {text: '《JavaScript教程》', link: '/note/javascript/'},
-                            {text: '《JavaScript高级程序设计》', link: '/note/js/'},
-                            {text: '《ES6 教程》', link: '/note/es6/'},
-                            {text: '《Vue》', link: '/note/vue/'},
-                            {text: '《React》', link: '/note/react/'},
-                            {text: '《TypeScript 从零实现 axios》', link: '/note/typescript-axios/',},
-                            {text: '《Git》', link: '/note/git/',},
-                            {text: 'TypeScript', link: '/pages/51afd6/',},
-                            {text: 'JS设计模式总结', link: '/pages/4643cd/',},
+                            {text: '00.HTML', link: '/web/8309a5b876fc95e3/'},
+                            {text: '01.CSS', link: '/web/c8f128/'},
+                            {text: '02.JavaScript', link: '/web/0796ba76b4b55368/'},
+                            {text: '03.Node', link: '/web/117708e0af7f0bd9/'},
+                            {text: '04.Vue', link: '/pages/04783a6691cc9d06/'},
+                            {text: '05.小程序笔记', link: '/web/wx-miniprogram/'},
                         ],
                     },
                 ],
@@ -155,6 +138,58 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 ],
             },
             {
+                text: '技术',
+                link: '/technology/',
+                items: [
+                    {
+                        text: '技术',
+                        items: [
+                            {text: '技术文档', link: '/pages/9a7ee40fc232253e/'},
+                            {text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/'},
+                            {text: 'Nodejs', link: '/pages/117708e0af7f0bd9/'},
+                            {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
+                            {text: 'Java', link: '/Java/j1f871/'},
+                            {text: 'SpringBoot', link: '/SpringBoot/b41f871/'},
+                            {text: '计算机网络', link: '/network/41f871/'},
+                            {text: '面试题', link: '/interview/in41f871/'},
+                        ],
+                    },
+                    {
+                        text: '运维',
+                        items: [
+                            {text: '00.Linux系统初始化', link: '/devops/5c1e18/'},
+                            {text: '01.vim常用命令', link: '/devops/8c1e18/'},
+                            {text: '02.Linux打包与压缩', link: '/devops/6c1e18/'},
+                            {text: '03.防火墙firewalld概述及常用操作', link: '/devops/7c1e18/'},
+                            {text: '04.Linux Cron定时任务', link: '/devops/04c1e18/'},
+                            {text: '05.Shell脚本基本规范、书写习惯', link: '/devops/05c1e18/'},
+                            {text: '06.Shell开发在运维中的经验总结', link: '/devops/067c1e18/'},
+                            {text: '04.nginx安装', link: '/devops/nginx18/'},
+                            {text: '05.Jenkins构建时执行Shell脚本', link: '/jenkins/jenkins1/'},
+                        ],
+                    },
+                    {
+                        text: 'Docker',
+                        items: [
+                            {text: '07.Dockers底层技术', link: '/docker/docker07/'},
+                            {text: '08.Docker部署常见应用', link: '/docker/docker08/'},
+                        ],
+                    },
+                    {
+                        text: 'Nginx',
+                        items: [
+                            {text: '04.nginx安装', link: '/devops/nginx18/'},
+                        ],
+                    },
+                    {
+                        text: 'Jenkins',
+                        items: [
+                            {text: '01.Jenkins构建时执行Shell脚本', link: '/jenkins/jenkins1/'},
+                        ],
+                    },
+                ],
+            },
+            {
                 text: '车路协同自动驾驶',
                 link: '/cvis/',
                 items: [
@@ -215,58 +250,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '10.IT技术人的知识体系', link: '/team/86a3e8/'},
                             {text: '12.项目管理', link: '/team/4fd6d9/'},
                             {text: '14.如何做工作汇报', link: '/team/4d63c2/'},
-                        ],
-                    },
-                ],
-            },
-            {
-                text: '技术',
-                link: '/technology/',
-                items: [
-                    {
-                        text: '技术',
-                        items: [
-                            {text: '技术文档', link: '/pages/9a7ee40fc232253e/'},
-                            {text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/'},
-                            {text: 'Nodejs', link: '/pages/117708e0af7f0bd9/'},
-                            {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
-                            {text: 'Java', link: '/Java/j1f871/'},
-                            {text: 'SpringBoot', link: '/SpringBoot/b41f871/'},
-                            {text: '计算机网络', link: '/network/41f871/'},
-                            {text: '面试题', link: '/interview/in41f871/'},
-                        ],
-                    },
-                    {
-                        text: '运维',
-                        items: [
-                            {text: '00.Linux系统初始化', link: '/devops/5c1e18/'},
-                            {text: '01.vim常用命令', link: '/devops/8c1e18/'},
-                            {text: '02.Linux打包与压缩', link: '/devops/6c1e18/'},
-                            {text: '03.防火墙firewalld概述及常用操作', link: '/devops/7c1e18/'},
-                            {text: '04.Linux Cron定时任务', link: '/devops/04c1e18/'},
-                            {text: '05.Shell脚本基本规范、书写习惯', link: '/devops/05c1e18/'},
-                            {text: '06.Shell开发在运维中的经验总结', link: '/devops/067c1e18/'},
-                            {text: '04.nginx安装', link: '/devops/nginx18/'},
-                            {text: '05.Jenkins构建时执行Shell脚本', link: '/jenkins/jenkins1/'},
-                        ],
-                    },
-                    {
-                        text: 'Docker',
-                        items: [
-                            {text: '07.Dockers底层技术', link: '/docker/docker07/'},
-                            {text: '08.Docker部署常见应用', link: '/docker/docker08/'},
-                        ],
-                    },
-                    {
-                        text: 'Nginx',
-                        items: [
-                            {text: '04.nginx安装', link: '/devops/nginx18/'},
-                        ],
-                    },
-                    {
-                        text: 'Jenkins',
-                        items: [
-                            {text: '01.Jenkins构建时执行Shell脚本', link: '/jenkins/jenkins1/'},
                         ],
                     },
                 ],
