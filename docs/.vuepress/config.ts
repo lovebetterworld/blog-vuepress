@@ -210,9 +210,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: '自动驾驶',
                         items: [
-                            {text: '00.机器学习和深度学习的区别', link: '/ai/4a1e18/'},
-                            {text: '01.自动驾驶、无人驾驶、车联网笔记分享', link: '/ai/4bw1e18/'},
-                            {text: '02.深度学习思维导图、人工智能思维导图、深度学习综述', link: '/ai/4cd1e18/'},
+                            {text: '01.自动驾驶、无人驾驶、车联网笔记分享', link: '/autod/autod01/'},
+                            {text: '02.万字详解OpenDRIVE文件', link: '/autod/autod02/'},
                         ],
                     },
                 ],
