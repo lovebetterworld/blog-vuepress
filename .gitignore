@@ -7,9 +7,11 @@ yarn.lock
 
 # vscode
 .vscode
+.idea
 
 # vuepress
 docs/.vuepress/dist
+docs/.vuepress/dist.zip
 
 # 百度链接推送
 urls.txt
