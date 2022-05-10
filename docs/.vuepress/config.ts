@@ -263,13 +263,18 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 ],
             },
             {
-                text: '生活',
+                text: '关于我',
                 link: '/life/',
                 items: [
                     {
+                        text: '关于我',
+                        items: [
+                            {text: '⭐关于我⭐', link: '/life/aboutme/'},
+                        ],
+                    },
+					{
                         text: '生活',
                         items: [
-                            {text: '00.关于我', link: '/life/aboutme/'},
                             {text: '01.程序猿', link: '/life/life01/'},
                             {text: '02.致2021', link: '/life/life02/'},
                             {text: '03.别离烟台', link: '/life/life03/'},
