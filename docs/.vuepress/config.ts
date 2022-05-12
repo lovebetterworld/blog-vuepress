@@ -204,7 +204,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '21.广州市车联网先导区建设总体技术规范', link: '/cvis/a524e7/'},
                             {text: '22.金水智能汽车5G-V2X车路协同安全测试认证基地项目招标文件', link: '/cvis/a624e7/'},
                             {text: '23.天津(西青)车联网先导区技术标准与实践白皮书', link: '/cvis/a724e7/'},
-                            {text: '24.银川市智能网联汽车道路测试示范 应用项目（一期）', link: '/cvis/a824e7/'},
+                            {text: '24.银川市智能网联汽车道路测试示范 应用项目（一期）', link: '/cvis/a824e7/'},	
+                            {text: '30.C-V2X业务演进白皮书', link: '/cvis/cv2x31/'},
+                            {text: '31.C-V2X与智能车路协同技术的深度融合', link: '/cvis/cv2x30/'},
+                            {text: '32.C-V2X产业化路径和时间表研究白皮书', link: '/cvis/cv2x33/'},
+                            {text: '33.C-V2X行业现状、产业化部署与演进路线', link: '/cvis/cv2x32/'},
                         ],
                     },
                     {
