@@ -131,7 +131,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '01.物联网应用层协议选择和分析', link: '/platform/wl1w8ced6/'},
                             {text: '03.腾讯物联网平台学习', link: '/platform/tx8ced6/'},
                             {text: '04.物联网平台设计学习', link: '/platform/stw8ced6/'},
-                            {text: '04.物联网平台设计学习', link: '/platform/stw8ced6/'},
+                            {text: '05.规则引擎', link: '/platform/rule8ced6/'},
                             {text: '06.物模型', link: '/platform/moe8ced6/'},
                         ],
                     },
