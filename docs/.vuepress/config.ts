@@ -58,6 +58,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '03.Node', link: '/web/117708e0af7f0bd9/'},
                             {text: '04.Vue', link: '/pages/04783a6691cc9d06/'},
                             {text: '05.小程序笔记', link: '/web/wx-miniprogram/'},
+                            {text: '20.WebGis', link: '/webgis/tyzbx/'},
                         ],
                     },
                 ],
@@ -144,18 +145,58 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: '技术',
                         items: [
-                            {text: '技术文档', link: '/pages/9a7ee40fc232253e/'},
-                            {text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/'},
-                            {text: 'Nodejs', link: '/pages/117708e0af7f0bd9/'},
                             {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
                             {text: 'Java', link: '/Java/j1f871/'},
                             {text: 'SpringBoot', link: '/SpringBoot/b41f871/'},
                             {text: '计算机网络', link: '/network/41f871/'},
-                            {text: '面试题', link: '/interview/in41f871/'},
+                            {text: '面试题', link: '/interview/java-base/'},
                         ],
                     },
                     {
-                        text: '运维',
+                        text: 'Java',
+                        items: [
+                            {text: '01.Java操作Yaml文件', link: '/Java/j1f871/'},
+                            {text: '20.Java8 Stream', link: '/Java/8stream/'},
+                            {text: '30.JavaIO讲解', link: '/Java/io41f871/'},
+                            {text: '40.Java线程池解析', link: '/Java/threadpool/'},
+                        ],
+                    },
+                    {
+                        text: 'SpringBoot',
+                        items: [
+                            {text: '00.SpringBoot运维', link: '/SpringBoot/b41f871/'},
+                            {text: '01.SpringBoot优化', link: '/SpringBoot/s41f872/'},
+                            {text: '02.SpringBoot源码解析', link: '/SpringBoot/s41f873/'},
+                            {text: '04.IDEA中SpringBoot远程debug', link: '/SpringBoot/sxf873/'},
+                        ],
+                    },
+                    {
+                        text: '计算机网络',
+                        items: [
+                            {text: '00.OSI和TCPIP网络分层模型详解', link: '/network/41f871/'},
+                            {text: '01.HTTP VS HTTPS（应用层）', link: '/network/41f872/'},
+                            {text: '02.HTTP 1·0 vs HTTP 1·1（应用层）', link: '/network/41f87212/'},
+                            {text: '03.谢希仁老师的《计算机网络》内容总结', link: '/network/41f875/'},
+                            {text: '04.计算机网络常见知识点&面试题', link: '/network/41f877/'},
+                            {text: '05.常用通讯协议详解', link: '/network/41f8123/'},
+                        ],
+                    },
+                    {
+                        text: '面试题',
+                        items: [
+                            {text: '00.Java基础', link: '/interview/java-base/'},
+                            {text: '01.Java并发', link: '/interview/concurrent/'},
+                            {text: '05.Java IO', link: '/interview/java-io/'},
+                        ],
+                    },
+                ],
+            },
+            {
+                text: '运维',
+                link: '/devops/',
+                items: [
+                    {
+                        text: 'Linux Shell',
                         items: [
                             {text: '00.Linux系统初始化', link: '/devops/5c1e18/'},
                             {text: '01.vim常用命令', link: '/devops/8c1e18/'},
@@ -164,8 +205,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '04.Linux Cron定时任务', link: '/devops/04c1e18/'},
                             {text: '05.Shell脚本基本规范、书写习惯', link: '/devops/05c1e18/'},
                             {text: '06.Shell开发在运维中的经验总结', link: '/devops/067c1e18/'},
-                            {text: '04.nginx安装', link: '/devops/nginx18/'},
-                            {text: '05.Jenkins构建时执行Shell脚本', link: '/jenkins/jenkins1/'},
                         ],
                     },
                     {
