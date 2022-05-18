@@ -217,7 +217,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: 'Nginx',
                         items: [
-                            {text: '04.nginx安装', link: '/devops/nginx18/'},
+                            {text: '04.nginx安装', link: '/nginx/nginx04/'},
                         ],
                     },
                     {
