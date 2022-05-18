@@ -143,16 +143,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 link: '/technology/',
                 items: [
                     {
-                        text: '技术',
-                        items: [
-                            {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
-                            {text: 'Java', link: '/Java/j1f871/'},
-                            {text: 'SpringBoot', link: '/SpringBoot/b41f871/'},
-                            {text: '计算机网络', link: '/network/41f871/'},
-                            {text: '面试题', link: '/interview/java-base/'},
-                        ],
-                    },
-                    {
                         text: 'Java',
                         items: [
                             {text: '01.Java操作Yaml文件', link: '/Java/j1f871/'},
@@ -186,7 +176,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         items: [
                             {text: '00.Java基础', link: '/interview/java-base/'},
                             {text: '01.Java并发', link: '/interview/concurrent/'},
+                            {text: '02.JUC线程池', link: '/interview/JUCTheadPool/'},
                             {text: '05.Java IO', link: '/interview/java-io/'},
+                            {text: '10.JVM和调优', link: '/jvm/jvm10/'},
+                            {text: '15.Java新版本', link: '/interview/interview15/'},
+                            {text: '18.数据结构和算法', link: '/interview/interview18/'},
+                            {text: '20.数据库和MySQL', link: '/interview/interview20/'},
+                            {text: '21.Redis', link: '/interview/interview21/'},
+                            {text: '22.计算机网络', link: '/interview/interview22/'},
                         ],
                     },
                 ],
@@ -239,15 +236,31 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '01.万字详解5G车联网技术', link: '/cvis/a1232234e7/'},
                             {text: '10.V2X车路协同云控数据平台业务整理', link: '/cvis/a2232234e7/'},
                             {text: '11.车路云一体化融合控制系统', link: '/cvis/a324e7/'},
+                            {text: '31.C-V2X与智能车路协同技术的深度融合', link: '/cvis/cv2x30/'},
+                            {text: '33.C-V2X行业现状、产业化部署与演进路线', link: '/cvis/cv2x32/'},
+                        ],
+                    },
+					{
+                        text: '车路协同标准',
+                        items: [
+                            {text: '10.团体标准-车路协同信息交互技术要求第 1 部分：路侧设施与云控平台', link: '/cvis/standard10/'},
+                        ],
+                    },
+					{
+                        text: '车路协同建设方案',
+                        items: [
                             {text: '20.广州市车联网先导区V2X云控基础平台技术规范', link: '/cvis/a424e7/'},
                             {text: '21.广州市车联网先导区建设总体技术规范', link: '/cvis/a524e7/'},
                             {text: '22.金水智能汽车5G-V2X车路协同安全测试认证基地项目招标文件', link: '/cvis/a624e7/'},
                             {text: '23.天津(西青)车联网先导区技术标准与实践白皮书', link: '/cvis/a724e7/'},
                             {text: '24.银川市智能网联汽车道路测试示范 应用项目（一期）', link: '/cvis/a824e7/'},	
-                            {text: '30.C-V2X业务演进白皮书', link: '/cvis/cv2x31/'},
-                            {text: '31.C-V2X与智能车路协同技术的深度融合', link: '/cvis/cv2x30/'},
-                            {text: '32.C-V2X产业化路径和时间表研究白皮书', link: '/cvis/cv2x33/'},
-                            {text: '33.C-V2X行业现状、产业化部署与演进路线', link: '/cvis/cv2x32/'},
+                        ],
+                    },
+					{
+                        text: '车路协同白皮书',
+                        items: [
+                            {text: '31.C-V2X业务演进白皮书', link: '/cvis/cv2x31/'},
+                            {text: '33.C-V2X产业化路径和时间表研究白皮书', link: '/cvis/cv2x33/'},
                         ],
                     },
                     {
@@ -255,6 +268,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         items: [
                             {text: '01.自动驾驶、无人驾驶、车联网笔记分享', link: '/autod/autod01/'},
                             {text: '02.万字详解OpenDRIVE文件', link: '/autod/autod02/'},
+                            {text: '10.Java解析OpenDrive', link: '/autod/s5c2dz/'},
+                        ],
+                    },
+					{
+                        text: '高精度地图',
+                        items: [
+                            {text: '01.城市交通高精度地图服务技术规范', link: '/hdmap/hadmap01/'},
                         ],
                     },
                 ],
@@ -303,6 +323,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {text: '工具', link: '/tool/typora/'},
                     {text: '学习', link: '/pages/f2a556/'},
                     {text: '面试', link: '/pages/aea6571b7a8bae86/'},
+					{text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
                     {text: '友情链接', link: '/friends/'},
                 ],
             },
