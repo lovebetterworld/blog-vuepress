@@ -221,6 +221,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         text: 'Jenkins',
                         items: [
                             {text: '01.Jenkins构建时执行Shell脚本', link: '/jenkins/jenkins1/'},
+                            {text: '02.Jenkins部署远程服务', link: '/jenkins/jenkins2/'},
                         ],
                     },
                 ],
