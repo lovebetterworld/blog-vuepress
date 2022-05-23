@@ -248,7 +248,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 					{
                         text: '车路协同标准',
                         items: [
-                            {text: '10.团体标准-车路协同信息交互技术要求第 1 部分：路侧设施与云控平台', link: '/cvis/standard10/'},
+                            {text: '05.智能网联公交车路云一体化系统技术规范', link: '/cvis/standard05/'},
+                            {text: '06.合作式智能运输系统车路协同云控系统V2X设备接入技术规范', link: '/cvis/standard06/'},
+                            {text: '07.智能交通 路侧智能感知 应用层数据格式', link: '/cvis/standard07/'},
+                            {text: '08.智慧高速公路车路协同系统框架及要求第一部分', link: '/cvis/standard08/'},
+                            {text: '09.智慧高速公路车路协同系统框架及要求第二部分', link: '/cvis/standard09/'},
+                            {text: '10.团体标准-车路协同信息交互技术要求第 1 部分：路侧设施与云控平台', link: '/cvis/standard11/'},
+                            {text: '20.浙江智能网联汽车道路基础地理数据规范', link: '/cvis/standard20/'},
                         ],
                     },
 					{
@@ -264,6 +270,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 					{
                         text: '车路协同白皮书',
                         items: [
+                            {text: '01.中国联通智能路侧单元白皮书', link: '/cvis/ltbps/'},
+                            {text: '02.中国移动车联网V2X平台白皮书', link: '/cvis/ydbps/'},
+                            {text: '03.5G+MEC+V2X车联网解决方案白皮书', link: '/cvis/5gmecv2x/'},
                             {text: '31.C-V2X业务演进白皮书', link: '/cvis/cv2x31/'},
                             {text: '33.C-V2X产业化路径和时间表研究白皮书', link: '/cvis/cv2x33/'},
                         ],
