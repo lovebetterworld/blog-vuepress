@@ -96,6 +96,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '04.Redis主从同步和哨兵模式', link: '/redis/4de1e185/'},
                             {text: '05.Redis生产架构选型解决方案', link: '/redis/4de1e186/'},
                             {text: '06.Redis缓存雪崩、缓存穿透、缓存击穿、缓存预热', link: '/redis/4de1e187/'},
+                            {text: '40.Redis九种数据类型和应用场景', link: '/redis/redis40/'},
                         ],
                     },
                 ],
