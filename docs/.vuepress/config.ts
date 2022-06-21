@@ -121,6 +121,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         text: 'MQTT',
                         items: [
                             {text: '00.MQTT协议', link: '/mqtt/fd34e7/'},
+                            {text: '03.Docker搭建MQTT服务器', link: '/mqtt/12xced6/'},
                             {text: '07.MQTT主题设计开发实践', link: '/mqtt/ttkaced7/'},
                             {text: '10.MQTT和TCP协议的对比', link: '/mqtt/c5f6292/'},
                             {text: '12.MQTT协议的消息传递可靠性和持续性', link: '/mqtt/mkaced9/'},
