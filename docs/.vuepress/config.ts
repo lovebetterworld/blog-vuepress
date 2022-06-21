@@ -58,9 +58,21 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '03.Node', link: '/web/117708e0af7f0bd9/'},
                             {text: '04.Vue', link: '/pages/04783a6691cc9d06/'},
                             {text: '05.小程序笔记', link: '/web/wx-miniprogram/'},
-                            {text: '20.WebGis', link: '/webgis/tyzbx/'},
                         ],
                     },
+                    {
+                        text: 'WebGis',
+                        items: [
+                            {text: '01.WebGis笔记', link: '/webgis/webgis01/'},
+                            {text: '02.坐标转换工具类', link: '/webgis/gisutil/'},
+                            {text: '03.GIS投影与坐标系', link: '/webgis/webgis03/'},
+                            {text: '10.开源WebGIS架构', link: '/webgis/webgis10/'},
+                            {text: '11.开源GIS解决方案之路', link: '/webgis/webgis11/'},
+                            {text: '12.简记某WebGIS项目的优化之路', link: '/webgis/webgis12/'},
+                            {text: '13.关于WebGIS开源解决方案的探讨', link: '/webgis/webgis13/'},
+                            {text: '14.符合我公司GIS开源解决方案的探讨', link: '/webgis/webgis14/'},
+                        ],
+                    }
                 ],
             },
             {
@@ -246,7 +258,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '33.C-V2X行业现状、产业化部署与演进路线', link: '/cvis/cv2x32/'},
                         ],
                     },
-					{
+                    {
                         text: '车路协同标准',
                         items: [
                             {text: '05.智能网联公交车路云一体化系统技术规范', link: '/cvis/standard05/'},
@@ -258,17 +270,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '20.浙江智能网联汽车道路基础地理数据规范', link: '/cvis/standard20/'},
                         ],
                     },
-					{
+                    {
                         text: '车路协同建设方案',
                         items: [
                             {text: '20.广州市车联网先导区V2X云控基础平台技术规范', link: '/cvis/a424e7/'},
                             {text: '21.广州市车联网先导区建设总体技术规范', link: '/cvis/a524e7/'},
                             {text: '22.金水智能汽车5G-V2X车路协同安全测试认证基地项目招标文件', link: '/cvis/a624e7/'},
                             {text: '23.天津(西青)车联网先导区技术标准与实践白皮书', link: '/cvis/a724e7/'},
-                            {text: '24.银川市智能网联汽车道路测试示范 应用项目（一期）', link: '/cvis/a824e7/'},	
+                            {text: '24.银川市智能网联汽车道路测试示范 应用项目（一期）', link: '/cvis/a824e7/'},
                         ],
                     },
-					{
+                    {
                         text: '车路协同白皮书',
                         items: [
                             {text: '01.中国联通智能路侧单元白皮书', link: '/cvis/ltbps/'},
@@ -286,7 +298,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '10.Java解析OpenDrive', link: '/autod/s5c2dz/'},
                         ],
                     },
-					{
+                    {
                         text: '高精度地图',
                         items: [
                             {text: '01.城市交通高精度地图服务技术规范', link: '/hdmap/hadmap01/'},
@@ -338,7 +350,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {text: '工具', link: '/tool/typora/'},
                     {text: '学习', link: '/pages/f2a556/'},
                     {text: '面试', link: '/pages/aea6571b7a8bae86/'},
-					{text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
+                    {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
                     {text: '友情链接', link: '/friends/'},
                 ],
             },
@@ -352,7 +364,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '⭐关于我⭐', link: '/life/aboutme/'},
                         ],
                     },
-					{
+                    {
                         text: '生活',
                         items: [
                             {text: '01.程序猿', link: '/life/life01/'},
