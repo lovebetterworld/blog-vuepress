@@ -135,8 +135,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '03.千万级车联网MQTT消息平台架构设计', link: '/emq/14235d/'},
                             {text: '04.车联网TSP平台场景中的MQTT主题设计', link: '/emq/21fcc47/'},
                             {text: '05.EMQ车路协同', link: '/emq/dc662b8/'},
-                            {text: '06.EMQX桥接数据到Kafka', link: '/emq/xc6262b8/'},
-                            {text: '07.EMQ X持久化PostgreSQL数据持久化', link: '/emq/dbc6262b8/'},
+                            {text: '06.车联网中MQTT心跳保活与远程唤醒设计', link: '/emq/emqx06/'},
+                            {text: '18.EMQX桥接数据到Kafka', link: '/emq/xc6262b8/'},
+                            {text: '19.EMQ X持久化PostgreSQL数据持久化', link: '/emq/dbc6262b8/'},
                         ],
                     },
                     {
