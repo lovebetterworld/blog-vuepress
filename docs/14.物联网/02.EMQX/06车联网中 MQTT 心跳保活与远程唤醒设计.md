@@ -2,9 +2,11 @@
 title: 06车联网中 MQTT 心跳保活与远程唤醒设计
 date: 2022-04-08 15:50:40
 permalink: /emq/emqx06/
-categories:
+categories: 
   - 物联网
   - EMQX
+tags: 
+  - 
 ---
 
 - [车联网中 MQTT 心跳保活与远程唤醒设计_EMQ的技术博客_51CTO博客](https://blog.51cto.com/u_15204296/5415179)
