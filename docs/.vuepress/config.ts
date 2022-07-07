@@ -40,6 +40,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {text: '优质资源分享', link: '/hot/4df664/'},
                     {text: '快速开发平台', link: '/hot/0d5cb5/'},
                     {text: '简历工作相关', link: '/hot/b665ff/'},
+                    {text: '万字详解Apollo', link: '/apollo/apollo01/'},
                     {text: '搭建博客或网站', link: '/hot/7591eb/'},
                     {text: '接口API管理工具', link: '/hot/389faf/'},
                     {text: '为什么你应该写博客', link: '/hot/6726b8/'},
@@ -297,6 +298,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         items: [
                             {text: '01.自动驾驶、无人驾驶、车联网笔记分享', link: '/autod/autod01/'},
                             {text: '02.万字详解OpenDRIVE文件', link: '/autod/autod02/'},
+							{text: '03.万字详解Apollo', link: '/apollo/apollo01/'},
                             {text: '10.Java解析OpenDrive', link: '/autod/s5c2dz/'},
                         ],
                     },
