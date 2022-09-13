@@ -51,7 +51,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         text: '前端文章',
                         items: [
                             {text: '01.CSS', link: '/web/c8f128/'},
-                            {text: '03.Npm、Yarn设置镜像', link: '/yarn/yarn01/'},
+                            {text: '02.Npm、Yarn设置镜像', link: '/yarn/yarn01/'},
                         ],
                     },
                     {
@@ -307,9 +307,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 link: '/hot/',
                 items: [
                     {text: '推荐工具', link: '/tool/typora01/'},
-                    {text: '学习方法', link: '/pages/f2a556/'},
                     {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
-                    {text: '友情链接', link: '/friends/'},
+                    {text: '推荐博客', link: '/friends/'},
                 ],
             },
             {
