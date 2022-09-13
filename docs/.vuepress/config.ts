@@ -8,7 +8,6 @@ import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
     theme: 'vdoing', // 使用npm包主题
-
     locales: {
         '/': {
             lang: 'zh-CN',
@@ -16,9 +15,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             description: '技术、产品、运维博客，不想成为某一类，只想成为某一个。',
         }
     },
-    // 主题配置
     themeConfig: {
-        // 导航配置
         nav: [
             {text: '首页', link: '/'},
             {
@@ -47,18 +44,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 ],
             },
             {
-                text: '前端',
-                link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+                text: '前端及GIS',
+                link: '/web/',
                 items: [
                     {
                         text: '前端文章',
                         items: [
-                            {text: '00.HTML', link: '/web/8309a5b876fc95e3/'},
                             {text: '01.CSS', link: '/web/c8f128/'},
-                            {text: '02.JavaScript', link: '/web/0796ba76b4b55368/'},
-                            {text: '03.Node', link: '/web/117708e0af7f0bd9/'},
-                            {text: '04.Vue', link: '/pages/04783a6691cc9d06/'},
-                            {text: '05.小程序笔记', link: '/web/wx-miniprogram/'},
+                            {text: '03.Npm、Yarn设置镜像', link: '/yarn/yarn01/'},
                         ],
                     },
                     {
@@ -313,8 +306,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: '更多',
                 link: '/hot/',
                 items: [
-                    {text: '工具', link: '/tool/typora/'},
-                    {text: '学习', link: '/pages/f2a556/'},
+                    {text: '推荐工具', link: '/tool/typora01/'},
+                    {text: '学习方法', link: '/pages/f2a556/'},
                     {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
                     {text: '友情链接', link: '/friends/'},
                 ],
