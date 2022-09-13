@@ -76,87 +76,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     }
                 ],
             },
-            {
-                text: '数据库',
-                link: '/database/',
-                items: [
-                    {
-                        text: 'MySQL',
-                        items: [
-                            {text: '00.SQL优化万能公式', link: '/mysql/4a1e18/'},
-                            {text: '01.MySQL-IP存储方式', link: '/mysql/4b1e18/'},
-                            {text: '02.MySQL GIS功能介绍', link: '/mysql/4de1e18/'},
-                        ],
-                    },
-                    {
-                        text: 'PostgreSQL',
-                        items: [
-                            {text: '00.PostGIS总结', link: '/postgresql/4de1e18/'},
-                            {text: '01.PostGIS常用函数', link: '/postgresql/41ee18/'},
-                            {text: '02.PostGis添加Geometry类型字段', link: '/postgresql/42e1e18/'},
-                            {text: '03.Java Geometry空间几何数据的处理应用', link: '/postgresql/43e1e18/'},
-                            {text: '04.PostGIS创建Gis空间数据库，shp数据入库', link: '/postgresql/45e1e18/'},
-                            {text: '10.PostgreSQL自动类型转换', link: '/postgresql/6p21e18/'},
-                        ],
-                    },
-                    {
-                        text: 'Redis',
-                        items: [
-                            {text: '00.Redis开发规范', link: '/redis/4de1e181/'},
-                            {text: '01.Redis常见使用场景', link: '/redis/4de1e182/'},
-                            {text: '02.Redis的持久化方案', link: '/redis/4de1e183/'},
-                            {text: '03.Redis内存淘汰机制与算法', link: '/redis/4de1e184/'},
-                            {text: '04.Redis主从同步和哨兵模式', link: '/redis/4de1e185/'},
-                            {text: '05.Redis生产架构选型解决方案', link: '/redis/4de1e186/'},
-                            {text: '06.Redis缓存雪崩、缓存穿透、缓存击穿、缓存预热', link: '/redis/4de1e187/'},
-                            {text: '40.Redis九种数据类型和应用场景', link: '/redis/redis40/'},
-                        ],
-                    },
-                ],
-            },
-            {
-                text: '物联网',
-                link: '/iot/',
-                items: [
-                    {
-                        text: 'MQTT',
-                        items: [
-                            {text: '00.MQTT协议', link: '/mqtt/fd34e7/'},
-                            {text: '03.Docker搭建MQTT服务器', link: '/mqtt/12xced6/'},
-                            {text: '07.MQTT主题设计开发实践', link: '/mqtt/ttkaced7/'},
-                            {text: '10.MQTT和TCP协议的对比', link: '/mqtt/c5f6292/'},
-                            {text: '12.MQTT协议的消息传递可靠性和持续性', link: '/mqtt/mkaced9/'},
-                        ],
-                    },
-                    {
-                        text: 'EMQX',
-                        items: [
-                            {text: '01.EMQX+Kafka 性能物联网MQTT消息处理方案', link: '/emq/198ced6/'},
-                            {text: '02.车联网平台百万级消息吞吐架构设计', link: '/emq/2908ced6/'},
-                            {text: '03.千万级车联网MQTT消息平台架构设计', link: '/emq/14235d/'},
-                            {text: '04.车联网TSP平台场景中的MQTT主题设计', link: '/emq/21fcc47/'},
-                            {text: '05.EMQ车路协同', link: '/emq/dc662b8/'},
-                            {text: '06.车联网中MQTT心跳保活与远程唤醒设计', link: '/emq/emqx06/'},
-                            {text: '18.EMQX桥接数据到Kafka', link: '/emq/xc6262b8/'},
-                            {text: '19.EMQ X持久化PostgreSQL数据持久化', link: '/emq/dbc6262b8/'},
-                        ],
-                    },
-                    {
-                        text: '物联网平台',
-                        items: [
-                            {text: '00.开源物联网平台建设、参考解决方案', link: '/platform/wlw8ced6/'},
-                            {text: '01.物联网应用层协议选择和分析', link: '/platform/wl1w8ced6/'},
-                            {text: '03.腾讯物联网平台学习', link: '/platform/tx8ced6/'},
-                            {text: '04.物联网平台设计学习', link: '/platform/stw8ced6/'},
-                            {text: '05.规则引擎', link: '/platform/rule8ced6/'},
-                            {text: '06.物模型', link: '/platform/moe8ced6/'},
-                        ],
-                    },
-                ],
-            },
-            {
-                text: '技术',
-                link: '/technology/',
+			{
+                text: '后端',
+                link: '/Java/',
                 items: [
                     {
                         text: 'Java',
@@ -208,9 +130,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     },
                 ],
             },
-            {
+			{
                 text: '运维',
-                link: '/devops/',
+                link: '/docker/',
                 items: [
                     {
                         text: 'Linux Shell',
@@ -246,9 +168,113 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     },
                 ],
             },
+			{
+                text: '物联网',
+                link: '/iot/',
+                items: [
+                    {
+                        text: 'MQTT',
+                        items: [
+                            {text: '00.MQTT协议', link: '/mqtt/fd34e7/'},
+                            {text: '03.Docker搭建MQTT服务器', link: '/mqtt/12xced6/'},
+                            {text: '07.MQTT主题设计开发实践', link: '/mqtt/ttkaced7/'},
+                            {text: '10.MQTT和TCP协议的对比', link: '/mqtt/c5f6292/'},
+                            {text: '12.MQTT协议的消息传递可靠性和持续性', link: '/mqtt/mkaced9/'},
+                        ],
+                    },
+                    {
+                        text: 'EMQX',
+                        items: [
+                            {text: '01.EMQX+Kafka 性能物联网MQTT消息处理方案', link: '/emq/198ced6/'},
+                            {text: '02.车联网平台百万级消息吞吐架构设计', link: '/emq/2908ced6/'},
+                            {text: '03.千万级车联网MQTT消息平台架构设计', link: '/emq/14235d/'},
+                            {text: '04.车联网TSP平台场景中的MQTT主题设计', link: '/emq/21fcc47/'},
+                            {text: '05.EMQ车路协同', link: '/emq/dc662b8/'},
+                            {text: '06.车联网中MQTT心跳保活与远程唤醒设计', link: '/emq/emqx06/'},
+                            {text: '18.EMQX桥接数据到Kafka', link: '/emq/xc6262b8/'},
+                            {text: '19.EMQ X持久化PostgreSQL数据持久化', link: '/emq/dbc6262b8/'},
+                        ],
+                    },
+                    {
+                        text: '物联网平台',
+                        items: [
+                            {text: '00.开源物联网平台建设、参考解决方案', link: '/platform/wlw8ced6/'},
+                            {text: '01.物联网应用层协议选择和分析', link: '/platform/wl1w8ced6/'},
+                            {text: '03.腾讯物联网平台学习', link: '/platform/tx8ced6/'},
+                            {text: '04.物联网平台设计学习', link: '/platform/stw8ced6/'},
+                            {text: '05.规则引擎', link: '/platform/rule8ced6/'},
+                            {text: '06.物模型', link: '/platform/moe8ced6/'},
+                        ],
+                    },
+                ],
+            },
+            {
+                text: '数据库',
+                link: '/database/',
+                items: [
+                    {
+                        text: 'MySQL',
+                        items: [
+                            {text: '00.SQL优化万能公式', link: '/mysql/4a1e18/'},
+                            {text: '01.MySQL-IP存储方式', link: '/mysql/4b1e18/'},
+                            {text: '02.MySQL GIS功能介绍', link: '/mysql/4de1e18/'},
+                        ],
+                    },
+                    {
+                        text: 'PostgreSQL',
+                        items: [
+                            {text: '00.PostGIS总结', link: '/postgresql/4de1e18/'},
+                            {text: '01.PostGIS常用函数', link: '/postgresql/41ee18/'},
+                            {text: '02.PostGis添加Geometry类型字段', link: '/postgresql/42e1e18/'},
+                            {text: '03.Java Geometry空间几何数据的处理应用', link: '/postgresql/43e1e18/'},
+                            {text: '04.PostGIS创建Gis空间数据库，shp数据入库', link: '/postgresql/45e1e18/'},
+                            {text: '10.PostgreSQL自动类型转换', link: '/postgresql/6p21e18/'},
+                        ],
+                    },
+                    {
+                        text: 'Redis',
+                        items: [
+                            {text: '00.Redis开发规范', link: '/redis/4de1e181/'},
+                            {text: '01.Redis常见使用场景', link: '/redis/4de1e182/'},
+                            {text: '02.Redis的持久化方案', link: '/redis/4de1e183/'},
+                            {text: '03.Redis内存淘汰机制与算法', link: '/redis/4de1e184/'},
+                            {text: '04.Redis主从同步和哨兵模式', link: '/redis/4de1e185/'},
+                            {text: '05.Redis生产架构选型解决方案', link: '/redis/4de1e186/'},
+                            {text: '06.Redis缓存雪崩、缓存穿透、缓存击穿、缓存预热', link: '/redis/4de1e187/'},
+                            {text: '40.Redis九种数据类型和应用场景', link: '/redis/redis40/'},
+                        ],
+                    },
+                ],
+            },
+            
+			{
+                text: '架构',
+                link: '/gbf/',
+                items: [
+                    {
+                        text: '高并发',
+                        items: [
+                            {text: '00.1.高并发架构泛谈', link: '/gbf/gbf01/'},
+                        ],
+                    },
+                    {
+                        text: '分布式',
+                        items: [
+                            {text: '01.Redis实现分布式锁', link: '/fbs/fbs_redis01/'},
+                        ],
+                    },
+                    {
+                        text: '消息队列',
+                        items: [
+                            {text: '01.消息队列原理和选型', link: '/mq/mq01/'},
+                        ],
+                    },
+                ],
+            },
+            
             {
                 text: '项目管理',
-                link: '/project/',
+                link: '/standard/',
                 items: [
                     {
                         text: '研发规范',
@@ -285,11 +311,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             },
             {
                 text: '更多',
-                link: '/more/',
+                link: '/hot/',
                 items: [
                     {text: '工具', link: '/tool/typora/'},
                     {text: '学习', link: '/pages/f2a556/'},
-                    {text: '面试', link: '/pages/aea6571b7a8bae86/'},
                     {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
                     {text: '友情链接', link: '/friends/'},
                 ],
