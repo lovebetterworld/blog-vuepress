@@ -144,6 +144,21 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '05.树(Tree)', link: '/structure/structure05/'},
                         ],
                     },
+					{
+                        text: '源码相关',
+                        items: [
+                            {text: '01.String源码', link: '/sourceCode/sourceCode01/'},
+                            {text: '02.Thread源码', link: '/sourceCode/sourceCode02/'},
+                            {text: '03.ThreadLocal源码', link: '/sourceCode/sourceCode03/'},
+                            {text: '04.HashMap源码', link: '/sourceCode/sourceCode04/'},
+                            {text: '05.ConcurrentHashMap源码', link: '/sourceCode/sourceCode05/'},
+                            {text: '06.LinkedHashMap源码', link: '/sourceCode/sourceCode06/'},
+                            {text: '07.ArrayList源码', link: '/sourceCode/sourceCode07/'},
+                            {text: '08.HashSet源码', link: '/sourceCode/sourceCode08/'},
+                            {text: '10.Executor线程池组件', link: '/sourceCode/sourceCode10/'},
+                            {text: '11. Lock锁组件', link: '/sourceCode/sourceCode11/'},
+                        ],
+                    },
                 ],
             },
 			{
