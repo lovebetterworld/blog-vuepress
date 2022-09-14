@@ -102,9 +102,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         text: 'Java',
                         items: [
                             {text: '01.Java操作Yaml文件', link: '/Java/j1f871/'},
+                            {text: '02.Java中使用protobuf', link: '/Java/java02/'},
+                            {text: '04.读取resources目录下的文件路径', link: '/Java/java04/'},
                             {text: '20.Java8 Stream', link: '/Java/8stream/'},
                             {text: '30.JavaIO讲解', link: '/Java/io41f871/'},
                             {text: '40.Java线程池解析', link: '/Java/threadpool/'},
+                            {text: '41.Java实现多线程', link: '/Java/threadpool41/'},
                         ],
                     },
                     {
@@ -114,6 +117,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '01.SpringBoot优化', link: '/SpringBoot/s41f872/'},
                             {text: '02.SpringBoot源码解析', link: '/SpringBoot/s41f873/'},
                             {text: '04.IDEA中SpringBoot远程debug', link: '/SpringBoot/sxf873/'},
+                            {text: '15.SpringBoot 整合 RabbitMQ 实现消息可靠传输', link: '/SpringBoot/springboot15/'},
+                            {text: '16.SpringBoot 集成 WebSocket，实现后台向前端推送信息', link: '/SpringBoot/springboot16/'},
+                            {text: '17.SpringBoot使用多线程', link: '/SpringBoot/springboot17/'},
+							{text: '18.SpringBoot多线程实现', link: '/Java/springboot18/'},
                         ],
                     },
                     {
@@ -125,6 +132,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '03.谢希仁老师的《计算机网络》内容总结', link: '/network/41f875/'},
                             {text: '04.计算机网络常见知识点&面试题', link: '/network/41f877/'},
                             {text: '05.常用通讯协议详解', link: '/network/41f8123/'},
+                        ],
+                    },
+					{
+                        text: '数据结构',
+                        items: [
+                            {text: '00.数据结构基本概念', link: '/structure/structure01/'},
+                            {text: '02.栈和队列(Stack & Queue)', link: '/structure/structure02/'},
+                            {text: '03.线性表(List)', link: '/structure/structure03/'},
+                            {text: '04.串(String)', link: '/structure/structure04/'},
+                            {text: '05.树(Tree)', link: '/structure/structure05/'},
                         ],
                     },
                 ],
