@@ -300,9 +300,29 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '01.消息队列原理和选型', link: '/mq/mq01/'},
                         ],
                     },
+					{
+                        text: '微服务',
+                        items: [
+                            {text: '01.SpringCloud架构说明', link: '/SpringCloud/SpringCloud01/'},
+                            {text: '02.自定义通用响应消息及统一异常处理', link: '/SpringCloud/SpringCloud03/'},
+                            {text: '03.Nacos发现、配置管理', link: '/SpringCloud/SpringCloud03/'},
+                            {text: '04.OpenFeign服务调用', link: '/SpringCloud/SpringCloud04/'},
+                            {text: '05.Sentinel限流、熔断降级', link: '/SpringCloud/SpringCloud05/'},
+                            {text: '06.Gateway路由转发', link: '/SpringCloud/SpringCloud06/'},
+                            {text: '07.基于RBAC模型的系统权限设计', link: '/SpringCloud/SpringCloud07/'},
+                            {text: '08.Gateway+OAuth2+JWT实现微服务统一认证授权', link: '/SpringCloud/SpringCloud08/'},
+                            {text: '09.集成多数据源+Seata分布式事务+读写分离+分库分表', link: '/SpringCloud/SpringCloud09/'},
+                            {text: '10.扩展MybatisPlus插件DataPermissionInterceptor实现数据权限控制', link: '/SpringCloud/SpringCloud010/'},
+                            {text: '11.Skywalking实现链路追踪', link: '/SpringCloud/SpringCloud011/'},
+                            {text: '12.微服务日志系统设计与实现', link: '/SpringCloud/SpringCloud012/'},
+                            {text: '13.使用Redis分布式锁（Redisson）+自定义注解+AOP实现微服务重复请求控制', link: '/SpringCloud/SpringCloud013/'},
+                            {text: '14.使用Spring Security OAuth2实现单点登录(SSO)系统', link: '/SpringCloud/SpringCloud014/'},
+                            {text: '15.XXL-JOB分布式任务调度平台', link: '/SpringCloud/SpringCloud015/'},
+                            {text: '16.使用Actuator（Micrometer）+Prometheus+Grafana实现完整的微服务监控 ', link: '/SpringCloud/SpringCloud016/'},
+                        ],
+                    },
                 ],
-            },
-            
+            },  
             {
                 text: '项目管理',
                 link: '/standard/',
@@ -341,15 +361,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 ],
             },
             {
-                text: '更多',
-                link: '/hot/',
-                items: [
-                    {text: '推荐工具', link: '/tool/typora01/'},
-                    {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
-                    {text: '推荐博客', link: '/friends/'},
-                ],
-            },
-            {
                 text: '关于我',
                 link: '/life/',
                 items: [
@@ -370,6 +381,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     },
                 ]
             },
+			{
+                text: '推荐博客',
+                link: '/friends/',
+            },
             {
                 text: '索引',
                 link: '/archives/',
@@ -378,6 +393,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {text: '分类', link: '/categories/'},
                     {text: '标签', link: '/tags/'},
                     {text: '归档', link: '/archives/'},
+					{text: '推荐工具', link: '/tool/typora01/'},
+                    {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
                 ],
             },
         ],
