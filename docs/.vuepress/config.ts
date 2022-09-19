@@ -318,7 +318,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '13.使用Redis分布式锁（Redisson）+自定义注解+AOP实现微服务重复请求控制', link: '/SpringCloud/SpringCloud013/'},
                             {text: '14.使用Spring Security OAuth2实现单点登录(SSO)系统', link: '/SpringCloud/SpringCloud014/'},
                             {text: '15.XXL-JOB分布式任务调度平台', link: '/SpringCloud/SpringCloud015/'},
-                            {text: '16.使用Actuator（Micrometer）+Prometheus+Grafana实现完整的微服务监控 ', link: '/SpringCloud/SpringCloud016/'},
+                            {text: '16.使用Actuator（Micrometer）+Prometheus+Grafana实现完整的微服务监控', link: '/SpringCloud/SpringCloud016/'},
+                            {text: '17.SpringCloud+Docker+k8s实现微服务集群打包部署-打包配置 ', link: '/SpringCloud/SpringCloud017/'},
                         ],
                     },
                 ],
@@ -383,7 +384,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             },
 			{
                 text: '推荐博客',
-                link: '/friends/',
+                link: '/blog/',
+				items: [
+                    {text: '01.生活博客', link: '/blog/blog01/'},
+                    {text: '02.技术博客', link: '/blog/blog02/'},
+                    {text: '03.Java面试题+架构+系列', link: '/blog/blog03/'},
+                    {text: '04.SpringCloud+SpringBoot', link: '/blog/blog04/'},
+                ],
             },
             {
                 text: '索引',
