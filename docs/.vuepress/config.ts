@@ -66,6 +66,31 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '26.其他', link: '/interview/interview26/'},
                         ],
                     },
+					{
+                        text: '源码相关',
+                        items: [
+                            {text: '01.String源码', link: '/sourceCode/sourceCode01/'},
+                            {text: '02.Thread源码', link: '/sourceCode/sourceCode02/'},
+                            {text: '03.ThreadLocal源码', link: '/sourceCode/sourceCode03/'},
+                            {text: '04.HashMap源码', link: '/sourceCode/sourceCode04/'},
+                            {text: '05.ConcurrentHashMap源码', link: '/sourceCode/sourceCode05/'},
+                            {text: '06.LinkedHashMap源码', link: '/sourceCode/sourceCode06/'},
+                            {text: '07.ArrayList源码', link: '/sourceCode/sourceCode07/'},
+                            {text: '08.HashSet源码', link: '/sourceCode/sourceCode08/'},
+                            {text: '10.Executor线程池组件', link: '/sourceCode/sourceCode10/'},
+                            {text: '11. Lock锁组件', link: '/sourceCode/sourceCode11/'},
+                        ],
+                    },
+					{
+                        text: '数据结构',
+                        items: [
+                            {text: '00.数据结构基本概念', link: '/structure/structure01/'},
+                            {text: '02.栈和队列(Stack & Queue)', link: '/structure/structure02/'},
+                            {text: '03.线性表(List)', link: '/structure/structure03/'},
+                            {text: '04.串(String)', link: '/structure/structure04/'},
+                            {text: '05.树(Tree)', link: '/structure/structure05/'},
+                        ],
+                    },
                 ],
             },
             {
@@ -123,42 +148,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 							{text: '18.SpringBoot多线程实现', link: '/Java/springboot18/'},
                         ],
                     },
-                    {
-                        text: '计算机网络',
-                        items: [
-                            {text: '00.OSI和TCPIP网络分层模型详解', link: '/network/41f871/'},
-                            {text: '01.HTTP VS HTTPS（应用层）', link: '/network/41f872/'},
-                            {text: '02.HTTP 1·0 vs HTTP 1·1（应用层）', link: '/network/41f87212/'},
-                            {text: '03.谢希仁老师的《计算机网络》内容总结', link: '/network/41f875/'},
-                            {text: '04.计算机网络常见知识点&面试题', link: '/network/41f877/'},
-                            {text: '05.常用通讯协议详解', link: '/network/41f8123/'},
-                        ],
-                    },
-					{
-                        text: '数据结构',
-                        items: [
-                            {text: '00.数据结构基本概念', link: '/structure/structure01/'},
-                            {text: '02.栈和队列(Stack & Queue)', link: '/structure/structure02/'},
-                            {text: '03.线性表(List)', link: '/structure/structure03/'},
-                            {text: '04.串(String)', link: '/structure/structure04/'},
-                            {text: '05.树(Tree)', link: '/structure/structure05/'},
-                        ],
-                    },
-					{
-                        text: '源码相关',
-                        items: [
-                            {text: '01.String源码', link: '/sourceCode/sourceCode01/'},
-                            {text: '02.Thread源码', link: '/sourceCode/sourceCode02/'},
-                            {text: '03.ThreadLocal源码', link: '/sourceCode/sourceCode03/'},
-                            {text: '04.HashMap源码', link: '/sourceCode/sourceCode04/'},
-                            {text: '05.ConcurrentHashMap源码', link: '/sourceCode/sourceCode05/'},
-                            {text: '06.LinkedHashMap源码', link: '/sourceCode/sourceCode06/'},
-                            {text: '07.ArrayList源码', link: '/sourceCode/sourceCode07/'},
-                            {text: '08.HashSet源码', link: '/sourceCode/sourceCode08/'},
-                            {text: '10.Executor线程池组件', link: '/sourceCode/sourceCode10/'},
-                            {text: '11. Lock锁组件', link: '/sourceCode/sourceCode11/'},
-                        ],
-                    },
                 ],
             },
 			{
@@ -197,6 +186,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '02.Jenkins部署远程服务', link: '/jenkins/jenkins2/'},
                         ],
                     },
+					{
+                        text: '计算机网络',
+                        items: [
+                            {text: '00.OSI和TCPIP网络分层模型详解', link: '/network/41f871/'},
+                            {text: '01.HTTP VS HTTPS（应用层）', link: '/network/41f872/'},
+                            {text: '02.HTTP 1·0 vs HTTP 1·1（应用层）', link: '/network/41f87212/'},
+                            {text: '03.谢希仁老师的《计算机网络》内容总结', link: '/network/41f875/'},
+                            {text: '04.计算机网络常见知识点&面试题', link: '/network/41f877/'},
+                            {text: '05.常用通讯协议详解', link: '/network/41f8123/'},
+                        ],
+                    }
                 ],
             },
 			{
@@ -277,31 +277,54 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     },
                 ],
             },
-            
-			{
-                text: '架构',
-                link: '/gbf/',
+            {
+                text: '消息队列',
+                link: '/mq/',
                 items: [
-                    {
-                        text: '高并发',
-                        items: [
-                            {text: '00.1.高并发架构泛谈', link: '/gbf/gbf01/'},
-                        ],
-                    },
-                    {
-                        text: '分布式',
-                        items: [
-                            {text: '01.Redis实现分布式锁', link: '/fbs/fbs_redis01/'},
-                        ],
-                    },
                     {
                         text: '消息队列',
                         items: [
                             {text: '01.消息队列原理和选型', link: '/mq/mq01/'},
+                            {text: '02.RabbitMQ总结', link: '/RabbitMQ/RabbitMQ01/'},
                         ],
                     },
-					{
-                        text: '微服务',
+                    {
+                        text: 'RocketMQ',
+                        items: [
+                            {text: 'RocketMQ（一）概述', link: '/RocketMQ/RocketMQ01/'},
+                            {text: 'RocketMQ（二）架构', link: '/RocketMQ/RocketMQ02/'},
+                            {text: 'RocketMQ（三）安装', link: '/RocketMQ/RocketMQ03/'},
+                            {text: 'RocketMQ（四）消息生产', link: '/RocketMQ/RocketMQ04/'},
+                            {text: 'RocketMQ（五）消息存储', link: '/RocketMQ/RocketMQ05/'},
+                            {text: 'RocketMQ（六）IndexFile', link: '/RocketMQ/RocketMQ06/'},
+                            {text: 'RocketMQ（七）消息消费', link: '/RocketMQ/RocketMQ07/'},
+                            {text: 'RocketMQ（八）订阅关系一致性', link: '/RocketMQ/RocketMQ08/'},
+                            {text: 'RocketMQ（九）Offset处理', link: '/RocketMQ/RocketMQ09/'},
+                            {text: 'RocketMQ（十）消息清理', link: '/RocketMQ/RocketMQ10/'},
+                            {text: 'RocketMQ（十一）消息幂等', link: '/RocketMQ/RocketMQ11/'},
+                            {text: 'RocketMQ（十二）消息堆积与消息延迟', link: '/RocketMQ/RocketMQ12/'},
+                            {text: 'RocketMQ（十三）普通消息', link: '/RocketMQ/RocketMQ13/'},
+                            {text: 'RocketMQ（十四）顺序消息', link: '/RocketMQ/RocketMQ14/'},
+                            {text: 'RocketMQ（十五）延时消息', link: '/RocketMQ/RocketMQ15/'},
+                            {text: 'RocketMQ（十六）事务消息', link: '/RocketMQ/RocketMQ16/'},
+                            {text: 'RocketMQ（十七）批量消息', link: '/RocketMQ/RocketMQ17/'},
+                            {text: 'RocketMQ（十八）消息过滤', link: '/RocketMQ/RocketMQ18/'},
+                            {text: 'RocketMQ（十九）消息发送重试', link: '/RocketMQ/RocketMQ19/'},
+                            {text: 'RocketMQ（二十）消息消费重试机制', link: '/RocketMQ/RocketMQ20/'},
+                            {text: 'RocketMQ（二十一）死信队列', link: '/RocketMQ/RocketMQ21/'},
+                            {text: 'RocketMQ（二十二）高级功能汇总', link: '/RocketMQ/RocketMQ22/'},
+                            {text: 'RocketMQ（二十三）消息发送案例汇总', link: '/RocketMQ/RocketMQ23/'},
+                            {text: 'RocketMQ（二十四）整合SpringBoot', link: '/RocketMQ/RocketMQ24/'},
+                        ],
+                    },
+                ]
+            },
+			{
+                text: '微服务',
+                link: '/springcloud/',
+                items: [
+                    {
+                        text: 'SpringCloud',
                         items: [
                             {text: '01.SpringCloud架构说明', link: '/SpringCloud/SpringCloud01/'},
                             {text: '02.自定义通用响应消息及统一异常处理', link: '/SpringCloud/SpringCloud03/'},
@@ -320,6 +343,24 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '15.XXL-JOB分布式任务调度平台', link: '/SpringCloud/SpringCloud015/'},
                             {text: '16.使用Actuator（Micrometer）+Prometheus+Grafana实现完整的微服务监控', link: '/SpringCloud/SpringCloud016/'},
                             {text: '17.SpringCloud+Docker+k8s实现微服务集群打包部署-打包配置 ', link: '/SpringCloud/SpringCloud017/'},
+                        ],
+                    },
+                ]
+            },
+			{
+                text: '架构',
+                link: '/gbf/',
+                items: [
+                    {
+                        text: '高并发',
+                        items: [
+                            {text: '00.1.高并发架构泛谈', link: '/gbf/gbf01/'},
+                        ],
+                    },
+                    {
+                        text: '分布式',
+                        items: [
+                            {text: '01.Redis实现分布式锁', link: '/fbs/fbs_redis01/'},
                         ],
                     },
                 ],
