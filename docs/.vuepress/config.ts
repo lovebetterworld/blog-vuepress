@@ -285,7 +285,21 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         text: '消息队列',
                         items: [
                             {text: '01.消息队列原理和选型', link: '/mq/mq01/'},
-                            {text: '02.RabbitMQ总结', link: '/RabbitMQ/RabbitMQ01/'},
+                        ],
+                    },
+					{
+                        text: 'RabbitMQ',
+                        items: [
+                            {text: '01.RabbitMQ总结', link: '/RabbitMQ/RabbitMQ01/'},
+                            {text: '02.RabbitMQ（一）概述', link: '/RabbitMQ/RabbitMQ02/'},
+                            {text: '03.RobbitMQ（二）消息应答', link: '/RabbitMQ/RabbitMQ03/'},
+                            {text: '04.RabbitMQ（三）持久化', link: '/RabbitMQ/RabbitMQ04/'},
+                            {text: '05.RabbitMQ（四）发布确认', link: '/RabbitMQ/RabbitMQ05/'},
+                            {text: '06.RabbitMQ（五）交换机', link: '/RabbitMQ/RabbitMQ06/'},
+                            {text: '07.RabbitMQ（六）死信队列', link: '/RabbitMQ/RabbitMQ07/'},
+                            {text: '08.RabbitMQ（七）延迟队列', link: '/RabbitMQ/RabbitMQ08/'},
+                            {text: '09.RabbitMQ（八）发布确认', link: '/RabbitMQ/RabbitMQ09/'},
+                            {text: '10.RabbitMQ（九）其他知识', link: '/RabbitMQ/RabbitMQ10/'},
                         ],
                     },
                     {
