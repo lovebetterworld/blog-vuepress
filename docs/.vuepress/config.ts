@@ -284,7 +284,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: '消息队列',
                         items: [
-                            {text: '01.消息队列原理和选型', link: '/mq/mq01/'},
+                            {text: '01.消息队列使用场景', link: '/mq/mq01/'},
+                            {text: '02.事务消息如何实现？', link: '/mq/mq02/'},
+                            {text: '03.消息消费的2种方式：pull方式、push方式，如何选择？', link: '/mq/mq03/'},
+                            {text: '04.如何确保消息消息至少被成功消费一次？', link: '/mq/mq04/'},
+                            {text: '05.如何确保消息消费的幂等性？', link: '/mq/mq05/'},
+                            {text: '06.顺序消息如何实现？', link: '/mq/mq06/'},
+                            {text: '10.消息队列原理和选型', link: '/mq/mq10/'},
+                            {text: '11.消息队列对比', link: '/mq/mq11/'},
                         ],
                     },
 					{
