@@ -123,6 +123,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: '后端',
                 link: '/Java/',
                 items: [
+					{
+                        text: 'JVM系列',
+                        items: [
+                            {text: '01.JVM系列教程', link: '/JVM/JVM10-01/'},
+                            {text: '02.GC性能优化', link: '/GC/GC01/'},
+                            {text: '03.JVM总结', link: '/JVM/JVM01/'},
+                            {text: '04.JVM系列文章', link: '/JVM/JVM02/'},
+                        ],
+                    },
                     {
                         text: 'Java',
                         items: [
@@ -366,6 +375,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '17.SpringCloud+Docker+k8s实现微服务集群打包部署-打包配置 ', link: '/SpringCloud/SpringCloud017/'},
                         ],
                     },
+					{
+                        text: 'SpringCloud Alibaba',
+                        items: [
+                            {text: 'Spring Cloud Alibaba 微服务实战', link: '/SpringCloud/Alibaba99/'},
+                        ],
+                    },
                 ]
             },
 			{
@@ -373,15 +388,31 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 link: '/gbf/',
                 items: [
                     {
-                        text: '高并发',
+                        text: 'Java高并发系列',
                         items: [
-                            {text: '00.1.高并发架构泛谈', link: '/gbf/gbf01/'},
+                            {text: '01.Java高并发系列', link: '/gbf/gbf01/'},
+                            {text: '02.JUC系列', link: '/gbf/juc01/'},
+                            {text: '03.线程池系列', link: '/ThreadPool/ThreadPool01/'},
+                            {text: '04.Google Guava系列', link: '/guava/guava01/'},
+                            {text: '05.高并发案例', link: '/gbf/gbf-demo01/'},
                         ],
                     },
                     {
-                        text: '分布式',
+                        text: '分布式系列',
                         items: [
                             {text: '01.Redis实现分布式锁', link: '/fbs/fbs_redis01/'},
+                            {text: '02.分布式事务', link: '/fbs/fbs02/'},
+                            {text: '03.分布式唯一ID生成企业级方案', link: '/fbs/fbs03/'},
+                            {text: '10.什么是分布式事务？', link: '/fbs/fbs10/'},
+                            {text: '11.CAP原则？', link: '/fbs/fbs11/'},
+                            {text: '12.Base理论', link: '/fbs/fbs12/'},
+                        ],
+                    },
+					{
+                        text: 'RPC',
+                        items: [
+                            {text: '01.Thrift基本概念', link: '/Thrift/Thrift01/'},
+                            {text: '02.gRPC', link: '/RPC/gRPC01/'},
                         ],
                     },
                 ],
