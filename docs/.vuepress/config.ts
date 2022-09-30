@@ -191,7 +191,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '04.车联网TSP平台场景中的MQTT主题设计', link: '/emq/21fcc47/'},
                             {text: '05.EMQ车路协同', link: '/emq/dc662b8/'},
                             {text: '06.车联网中MQTT心跳保活与远程唤醒设计', link: '/emq/emqx06/'},
-                            {text: '18.EMQX桥接数据到Kafka', link: '/emq/xc6262b8/'},
+                            {text: '16.EMQX持久化至数据库及Kafka', link: '/emq/emqx16/'},
                             {text: '19.EMQ X持久化PostgreSQL数据持久化', link: '/emq/dbc6262b8/'},
                         ],
                     },
@@ -242,6 +242,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '05.Redis生产架构选型解决方案', link: '/redis/4de1e186/'},
                             {text: '06.Redis缓存雪崩、缓存穿透、缓存击穿、缓存预热', link: '/redis/4de1e187/'},
                             {text: '40.Redis九种数据类型和应用场景', link: '/redis/redis40/'},
+                        ],
+                    },
+					{
+                        text: 'TDengine',
+                        items: [
+                            {text: '01.TDengine系列教程', link: '/TDengine/TDengine01/'},
+                            {text: '02.TDengine系列教程', link: '/TDengine/TDengine02/'},
                         ],
                     },
                 ],
@@ -420,10 +427,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         text: '生活',
                         items: [
 							{text: '⭐关于我⭐', link: '/life/aboutme/'},
-                            {text: '01.程序猿', link: '/life/life01/'},
-                            {text: '02.致2021', link: '/life/life02/'},
-                            {text: '03.别离烟台', link: '/life/life03/'},
-                            {text: '04.烟火气', link: '/life/life04/'},
+                            {text: '01.生活那些事儿', link: '/life/life/'},
                         ],
                     },
                 ]
