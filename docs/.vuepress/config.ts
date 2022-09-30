@@ -68,16 +68,27 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '50.数据结构与算法系列', link: '/interview/interview50/'},
                         ],
                     },
+					{
+                        text: '计算机网络',
+                        items: [
+                            {text: '00.OSI和TCPIP网络分层模型详解', link: '/network/network01/'},
+                            {text: '01.HTTP VS HTTPS（应用层）', link: '/network/network02/'},
+                            {text: '02.HTTP 1·0 vs HTTP 1·1（应用层）', link: '/network/network03/'},
+                            {text: '03.谢希仁老师的《计算机网络》内容总结', link: '/network/network04/'},
+                            {text: '04.计算机网络常见知识点&面试题', link: '/network/network05/'},
+                            {text: '05.常用通讯协议详解', link: '/network/network06/'},
+                        ],
+                    },
                 ],
             },
             {
-                text: 'GIS',
+                text: 'Web及WebGis',
                 link: '/web/',
                 items: [
                     {
                         text: '前端文章',
                         items: [
-                            {text: '02.Npm、Yarn设置镜像', link: '/yarn/yarn01/'},
+                            {text: '01.Npm、Yarn手册', link: '/yarn/yarn01/'},
                         ],
                     },
                     {
@@ -418,7 +429,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 ]
             },
             {
-                text: '工具及其他索引篇',
+                text: '工具及其他索引',
                 link: '/archives/',
                 items: [
 					{text: '分类', link: '/categories/'},
