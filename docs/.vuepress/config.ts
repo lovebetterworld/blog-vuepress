@@ -391,7 +391,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: '研发规范',
                         items: [
-                            {text: '00.IDEA注释和方法模板', link: '/standard/fffaf6/'},
                             {text: '01.大型项目的 Gitflow 实践', link: '/standard/5e8efc/'},
                             {text: '02.项目README规范', link: '/standard/efac91/'},
                             {text: '03.关于研发规范化的一些思考', link: '/standard/dddf6c/'},
