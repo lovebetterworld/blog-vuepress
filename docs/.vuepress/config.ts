@@ -12,7 +12,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         '/': {
             lang: 'zh-CN',
             title: "爱是与世界平行",
-            description: '技术、产品、运维博客，不想成为某一类，只想成为某一个。',
+            description: '技术、产品、运维博客，不想成为某一类，只想成为某一个',
         }
     },
     themeConfig: {
@@ -142,13 +142,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: 'Linux Shell',
                         items: [
-                            {text: '00.Linux系统初始化', link: '/devops/5c1e18/'},
-                            {text: '01.vim常用命令', link: '/devops/8c1e18/'},
-                            {text: '02.Linux打包与压缩', link: '/devops/6c1e18/'},
-                            {text: '03.防火墙firewalld概述及常用操作', link: '/devops/7c1e18/'},
-                            {text: '04.Linux Cron定时任务', link: '/devops/04c1e18/'},
-                            {text: '05.Shell脚本基本规范、书写习惯', link: '/devops/05c1e18/'},
-                            {text: '06.Shell开发在运维中的经验总结', link: '/devops/067c1e18/'},
+                            {text: '01.Linux手册', link: '/linux/linux/'},
+                            {text: '02.Shell手册', link: '/linux/shell/'},
+                            {text: '03.Nginx手册', link: '/linux/nginx/'},
+                            {text: '04.Jenkins手册', link: '/linux/jenkins/'},
                         ],
                     },
                     {
@@ -158,30 +155,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '08.Docker部署常见应用', link: '/docker/docker08/'},
                         ],
                     },
-                    {
-                        text: 'Nginx',
-                        items: [
-                            {text: '04.nginx安装', link: '/nginx/nginx04/'},
-                        ],
-                    },
-                    {
-                        text: 'Jenkins',
-                        items: [
-                            {text: '01.Jenkins构建时执行Shell脚本', link: '/jenkins/jenkins1/'},
-                            {text: '02.Jenkins部署远程服务', link: '/jenkins/jenkins2/'},
-                        ],
-                    },
-					{
-                        text: '计算机网络',
-                        items: [
-                            {text: '00.OSI和TCPIP网络分层模型详解', link: '/network/41f871/'},
-                            {text: '01.HTTP VS HTTPS（应用层）', link: '/network/41f872/'},
-                            {text: '02.HTTP 1·0 vs HTTP 1·1（应用层）', link: '/network/41f87212/'},
-                            {text: '03.谢希仁老师的《计算机网络》内容总结', link: '/network/41f875/'},
-                            {text: '04.计算机网络常见知识点&面试题', link: '/network/41f877/'},
-                            {text: '05.常用通讯协议详解', link: '/network/41f8123/'},
-                        ],
-                    }
                 ],
             },
 			{
@@ -505,7 +478,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         },
         // 页脚信息
         footer: {
-            createYear: 2022, // 博客创建年份
+            createYear: 2021, // 博客创建年份
             copyrightInfo:
                 '爱是与世界平行 | <a href="https://www.lovebetterworld.com/" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
         },
@@ -519,21 +492,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             'meta',
             {
                 name: 'keywords',
-                content: '博客,个人技术博客，后端，运维，车路协同，智慧交通，智慧城市',
+                content: '博客，个人技术博客，后端，运维，车路协同，智慧交通，智慧城市',
             },
         ],
-        ['meta', {name: 'baidu-site-verification', content: '7F55weZDDc'}], // 百度统计的站长验证（你可以去掉）
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
     ],
-
-
     // 插件配置
     plugins: <UserPlugins>[
-        'vuepress-plugin-baidu-autopush', // 百度自动推送
-        [
-            'vuepress-plugin-baidu-tongji', // 百度统计
-            {hm: baiduCode,},
-        ],
         [
             'vuepress-plugin-zooming', // 放大图片
             {
@@ -552,7 +517,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             },
         ],
     ],
-
     markdown: {
         lineNumbers: true,
         extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
