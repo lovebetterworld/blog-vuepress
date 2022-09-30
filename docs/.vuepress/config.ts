@@ -64,43 +64,19 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '24.微服务', link: '/interview/interview24/'},
                             {text: '25.Docker', link: '/interview/interview25/'},
                             {text: '26.其他', link: '/interview/interview26/'},
-                        ],
-                    },
-					{
-                        text: '源码相关',
-                        items: [
-                            {text: '01.String源码', link: '/sourceCode/sourceCode01/'},
-                            {text: '02.Thread源码', link: '/sourceCode/sourceCode02/'},
-                            {text: '03.ThreadLocal源码', link: '/sourceCode/sourceCode03/'},
-                            {text: '04.HashMap源码', link: '/sourceCode/sourceCode04/'},
-                            {text: '05.ConcurrentHashMap源码', link: '/sourceCode/sourceCode05/'},
-                            {text: '06.LinkedHashMap源码', link: '/sourceCode/sourceCode06/'},
-                            {text: '07.ArrayList源码', link: '/sourceCode/sourceCode07/'},
-                            {text: '08.HashSet源码', link: '/sourceCode/sourceCode08/'},
-                            {text: '10.Executor线程池组件', link: '/sourceCode/sourceCode10/'},
-                            {text: '11. Lock锁组件', link: '/sourceCode/sourceCode11/'},
-                        ],
-                    },
-					{
-                        text: '数据结构',
-                        items: [
-                            {text: '00.数据结构基本概念', link: '/structure/structure01/'},
-                            {text: '02.栈和队列(Stack & Queue)', link: '/structure/structure02/'},
-                            {text: '03.线性表(List)', link: '/structure/structure03/'},
-                            {text: '04.串(String)', link: '/structure/structure04/'},
-                            {text: '05.树(Tree)', link: '/structure/structure05/'},
+                            {text: '40.Java源码相关', link: '/interview/interview40/'},
+                            {text: '50.数据结构与算法系列', link: '/interview/interview50/'},
                         ],
                     },
                 ],
             },
             {
-                text: '前端及GIS',
+                text: 'GIS',
                 link: '/web/',
                 items: [
                     {
                         text: '前端文章',
                         items: [
-                            {text: '01.CSS', link: '/web/c8f128/'},
                             {text: '02.Npm、Yarn设置镜像', link: '/yarn/yarn01/'},
                         ],
                     },
@@ -444,9 +420,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '04.任务管理：如何跟踪执行？', link: '/team/5406fa/'},
                             {text: '05.管理沟通：管理的必修课！', link: '/team/a6cc85/'},
                             {text: '06.大厂晋升指南-材料准备,PPT写作和现场答辩', link: '/team/dc6d6f/'},
-                            {text: '07.大厂晋升指南-上', link: '/team/2c533e/'},
-                            {text: '08.大厂晋升指南-中', link: '/team/3a9f32/'},
-                            {text: '09.大厂晋升指南-下', link: '/team/b2b7be/'},
+                            {text: '07.大厂晋升指南', link: '/team/2c533e/'},
                             {text: '10.IT技术人的知识体系', link: '/team/86a3e8/'},
                             {text: '12.项目管理', link: '/team/4fd6d9/'},
                             {text: '14.如何做工作汇报', link: '/team/4d63c2/'},
@@ -459,14 +433,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 link: '/life/',
                 items: [
                     {
-                        text: '关于我',
-                        items: [
-                            {text: '⭐关于我⭐', link: '/life/aboutme/'},
-                        ],
-                    },
-                    {
                         text: '生活',
                         items: [
+							{text: '⭐关于我⭐', link: '/life/aboutme/'},
                             {text: '01.程序猿', link: '/life/life01/'},
                             {text: '02.致2021', link: '/life/life02/'},
                             {text: '03.别离烟台', link: '/life/life03/'},
@@ -475,26 +444,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     },
                 ]
             },
-			{
-                text: '推荐博客',
-                link: '/blog/',
-				items: [
-                    {text: '01.生活博客', link: '/blog/blog01/'},
-                    {text: '02.技术博客', link: '/blog/blog02/'},
-                    {text: '03.Java面试题+架构+系列', link: '/blog/blog03/'},
-                    {text: '04.SpringCloud+SpringBoot', link: '/blog/blog04/'},
-                ],
-            },
             {
-                text: '索引',
+                text: '工具及其他索引篇',
                 link: '/archives/',
                 items: [
-                    {text: '收藏', link: '/pages/beb6c0bd8a66cea6/'},
-                    {text: '分类', link: '/categories/'},
+					{text: '分类', link: '/categories/'},
                     {text: '标签', link: '/tags/'},
                     {text: '归档', link: '/archives/'},
-					{text: '推荐工具', link: '/tool/typora01/'},
-                    {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
+                    {text: '01.IDEA使用手册', link: '/tool/idea/'},
+                    {text: '02.Typora及Markdown手册', link: '/tool/Typora/'},
+                    {text: '03.Git使用手册', link: '/tool/git/'},
+                    {text: '11.常用好用软件整理', link: '/tool/software/'},
+                    {text: '12.开源项目创作指南', link: '/tool/open/'},
+                    {text: '13.推荐一些常用工具箱', link: '/tool/tools/'},
+                    {text: '40.推荐博客', link: '/tool/blog/'}
                 ],
             },
         ],
