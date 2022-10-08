@@ -222,19 +222,18 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         text: 'MySQL',
                         items: [
                             {text: '00.SQL优化万能公式', link: '/mysql/4a1e18/'},
-                            {text: '01.MySQL-IP存储方式', link: '/mysql/4b1e18/'},
-                            {text: '02.MySQL GIS功能介绍', link: '/mysql/4de1e18/'},
+                            {text: '01.MySQL运维', link: '/mysql/mysql01/'},
+                            {text: '02.MySQL数据表优化设计', link: '/mysql/mysql02/'},
+                            {text: '03.MySQL常用函数汇总', link: '/mysql/mysql03/'},
+                            {text: '04.MySQL规范', link: '/mysql/mysql04/'},
                         ],
                     },
                     {
                         text: 'PostgreSQL',
                         items: [
                             {text: '00.PostGIS总结', link: '/postgresql/4de1e18/'},
-                            {text: '01.PostGIS常用函数', link: '/postgresql/41ee18/'},
-                            {text: '02.PostGis添加Geometry类型字段', link: '/postgresql/42e1e18/'},
-                            {text: '03.Java Geometry空间几何数据的处理应用', link: '/postgresql/43e1e18/'},
-                            {text: '04.PostGIS创建Gis空间数据库，shp数据入库', link: '/postgresql/45e1e18/'},
-                            {text: '10.PostgreSQL自动类型转换', link: '/postgresql/6p21e18/'},
+                            {text: '01.PostgreSQL自动类型转换', link: '/postgresql/6p21e18/'},
+                            {text: '02.PostGis操作', link: '/postgresql/42e1e18/'},
                         ],
                     },
                     {
