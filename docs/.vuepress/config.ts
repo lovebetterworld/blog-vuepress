@@ -104,10 +104,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '02.坐标转换工具类', link: '/webgis/gisutil/'},
                             {text: '03.GIS投影与坐标系', link: '/webgis/webgis03/'},
                             {text: '10.开源WebGIS架构', link: '/webgis/webgis10/'},
-                            {text: '11.开源GIS解决方案之路', link: '/webgis/webgis11/'},
-                            {text: '12.简记某WebGIS项目的优化之路', link: '/webgis/webgis12/'},
-                            {text: '13.关于WebGIS开源解决方案的探讨', link: '/webgis/webgis13/'},
-                            {text: '14.符合我公司GIS开源解决方案的探讨', link: '/webgis/webgis14/'},
                         ],
                     }
                 ],
@@ -119,10 +115,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 					{
                         text: 'JVM系列',
                         items: [
-                            {text: '01.JVM系列教程', link: '/JVM/JVM10-01/'},
+                            {text: '01.JVM总结', link: '/JVM/JVM01/'},
                             {text: '02.GC性能优化', link: '/GC/GC01/'},
-                            {text: '03.JVM总结', link: '/JVM/JVM01/'},
-                            {text: '04.JVM系列文章', link: '/JVM/JVM02/'},
+                            {text: '10.JVM系列', link: '/JVM/jvm10/'},
+                            {text: '11.OutOfMemoryError系列', link: '/jvm/OutOfMemoryError/'},
+                            {text: '04.JVM系列文章', link: '/JVM/JVM99/'},
                         ],
                     },
                     {
@@ -134,7 +131,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: '20.Java8 Stream', link: '/Java/8stream/'},
                             {text: '30.JavaIO讲解', link: '/Java/io41f871/'},
                             {text: '40.Java线程池解析', link: '/Java/threadpool/'},
-                            {text: '41.Java实现多线程', link: '/Java/threadpool41/'},
                         ],
                     },
                     {
