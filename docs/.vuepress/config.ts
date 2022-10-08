@@ -140,14 +140,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: 'SpringBoot',
                         items: [
-                            {text: '00.SpringBoot运维', link: '/SpringBoot/b41f871/'},
-                            {text: '01.SpringBoot优化', link: '/SpringBoot/s41f872/'},
-                            {text: '02.SpringBoot源码解析', link: '/SpringBoot/s41f873/'},
-                            {text: '04.IDEA中SpringBoot远程debug', link: '/SpringBoot/sxf873/'},
-                            {text: '15.SpringBoot 整合 RabbitMQ 实现消息可靠传输', link: '/SpringBoot/springboot15/'},
-                            {text: '16.SpringBoot 集成 WebSocket，实现后台向前端推送信息', link: '/SpringBoot/springboot16/'},
-                            {text: '17.SpringBoot使用多线程', link: '/SpringBoot/springboot17/'},
-							{text: '18.SpringBoot多线程实现', link: '/Java/springboot18/'},
+                            {text: '00.SpringBoot运维', link: '/SpringBoot/SpringBoot00/'},
+                            {text: '01.SpringBoot参数传递', link: '/SpringBoot/SpringBoot01/'},
+                            {text: '02.SpringBoot多线程', link: '/SpringBoot/SpringBoot02/'},
+                            {text: '03.SpringBoot整合中间件', link: '/SpringBoot/SpringBoot03/'},
                         ],
                     },
                 ],
