@@ -167,6 +167,29 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 ],
             },
 			{
+                text: '大数据相关',
+                link: '/bigdata/',
+                items: [
+                    {
+                        text: '大数据',
+                        items: [
+                            {text: '01.理想汽车从 Hadoop 到云原生的演进与思考', link: '/bigdata/bigdata01/'},
+                            {text: '10.HBase知识手册', link: '/bigdata/HBase01/'},
+                            {text: '11.Hive知识手册', link: '/bigdata/Hive01/'},
+                            {text: '40.数据同步工具Sqoop', link: '/bigdata/Sqoop01/'},
+                            {text: '41.数据同步工具DataX和DataWeb', link: '/bigdata/DataX01/'},
+                            {text: '90.大数据平台搭建及集群规划', link: '/bigdata/bigdata90/'},
+                        ],
+                    },
+					{
+                        text: '数据仓库',
+                        items: [
+                            {text: '01.数仓建设教程', link: '/bigdata/datahub01/'},
+                        ],
+                    },
+                ],
+            },
+			{
                 text: '物联网',
                 link: '/iot/',
                 items: [
