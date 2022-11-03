@@ -160,8 +160,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: 'Docker',
                         items: [
-                            {text: '07.Dockers底层技术', link: '/docker/docker07/'},
-                            {text: '08.Docker部署常见应用', link: '/docker/docker08/'},
+                            {text: 'Dockers底层技术', link: '/docker/docker07/'},
+                            {text: 'Docker镜像操作手册', link: '/docker/docker-images/'},
+                            {text: 'Docker-Compose手册', link: '/docker/compose01/'},
                         ],
                     },
                 ],
