@@ -185,9 +185,38 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         ],
                     },
 					{
+                        text: '大数据架构',
+                        items: [
+                            {text: '01.实时数据平台设计', link: '/bigdata/framework01/'},
+                            {text: '02.大数据分析平台搭建指南', link: '/bigdata/framework02/'},
+                            {text: '03.爱奇艺大数据生态的实时化建设', link: '/bigdata/framework03/'},
+                        ],
+                    },
+					{
+                        text: '数据治理',
+                        items: [
+                            {text: '01.数据治理体系', link: '/bigdata/data-governance/'},
+                            {text: '02.数据集成产品分析', link: '/bigdata/Data-integration/'}
+                        ],
+                    },
+					{
                         text: '数据仓库',
                         items: [
                             {text: '01.数仓建设教程', link: '/bigdata/datahub01/'},
+                            {text: '02.数据仓库开发', link: '/bigdata/datahub03/'},
+                            {text: '03.数仓分层设计', link: '/bigdata/datahub04/'},
+                            {text: '04.实时数仓建设', link: '/bigdata/datahub05/'},
+                            {text: '05.数仓建设规范', link: '/bigdata/datahub06/'},
+                            {text: '06.数仓开发过程', link: '/bigdata/datahub07/'},
+                            {text: '07.离线+实时数仓建设方案', link: '/bigdata/datahub08/'},
+                            {text: '10.数据质量建设', link: '/bigdata/datahub20/'}
+                        ],
+                    },
+					{
+                        text: '元数据管理',
+                        items: [
+                            {text: '01.元数据系统', link: '/bigdata/metadata01/'},
+                            {text: '10.元数据治理平台Datahub', link: '/bigdata/metadata-daahub/'}
                         ],
                     },
                 ],
